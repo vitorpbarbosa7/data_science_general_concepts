@@ -1,0 +1,5 @@
+X6-X11 - Payment records :  delay in payment in the last [number] of months
+X12-X17 - Bill Statement : fatura do cartão de crédito
+X18-X23 - Previous payment :  quantidade paga em cada mês
+
+pay duly : pagou devidamente, logo o valor do Payment records [X6-X11] será de -1.

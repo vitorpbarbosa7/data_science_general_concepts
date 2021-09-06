@@ -1,0 +1,11 @@
+2021-01-13 20:48:34.735 -03 [9952] LOG:  starting PostgreSQL 13.1, compiled by Visual C++ build 1914, 64-bit
+2021-01-13 20:48:34.736 -03 [9952] LOG:  listening on IPv6 address "::", port 5432
+2021-01-13 20:48:34.737 -03 [9952] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-01-13 20:48:34.830 -03 [2496] LOG:  database system was shut down at 2021-01-13 20:48:23 -03
+2021-01-13 20:48:34.878 -03 [9952] LOG:  database system is ready to accept connections
+2021-01-13 20:59:07.589 -03 [14836] ERROR:  canceling statement due to user request
+2021-01-13 20:59:07.613 -03 [9952] LOG:  background worker "logical replication launcher" (PID 14836) exited with exit code 1
+2021-01-13 20:59:08.023 -03 [9952] LOG:  received fast shutdown request
+2021-01-13 20:59:08.027 -03 [9952] LOG:  aborting any active transactions
+2021-01-13 20:59:08.054 -03 [14668] LOG:  shutting down
+2021-01-13 20:59:08.129 -03 [9952] LOG:  database system is shut down

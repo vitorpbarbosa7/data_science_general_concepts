@@ -1,0 +1,4 @@
+Select 
+min(Biweekly_high_Rate)
+From salary_range_by_job_classification
+where biweekly_high_rate <> '$0.00'

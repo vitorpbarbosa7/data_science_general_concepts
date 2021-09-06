@@ -1,0 +1,16 @@
+2021-02-12 13:19:12.790 -03 [6116] LOG:  starting PostgreSQL 13.1, compiled by Visual C++ build 1914, 64-bit
+2021-02-12 13:19:12.793 -03 [6116] LOG:  listening on IPv6 address "::", port 5432
+2021-02-12 13:19:12.795 -03 [6116] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-02-12 13:19:12.807 -03 [6116] LOG:  could not open directory "pg_tblspc/desktop.ini/PG_13_202007201": No such file or directory
+2021-02-12 13:19:12.881 -03 [7428] LOG:  database system was shut down at 2021-02-12 08:37:24 -03
+2021-02-12 13:19:12.915 -03 [6116] LOG:  database system is ready to accept connections
+2021-02-12 13:24:13.022 -03 [7480] LOG:  could not parse file name "pg_logical/snapshots/desktop.ini"
+2021-02-12 10:41:13.079 -03 [7504] LOG:  stats collector's time 2021-02-12 13:40:13.539168-03 is later than backend local time 2021-02-12 10:41:13.071784-03
+2021-02-12 11:03:51.927 -03 [6116] LOG:  received fast shutdown request
+2021-02-12 11:03:51.936 -03 [6116] LOG:  aborting any active transactions
+2021-02-12 11:03:51.938 -03 [7524] ERROR:  canceling statement due to user request
+2021-02-12 11:03:51.938 -03 [7504] ERROR:  canceling statement due to user request
+2021-02-12 11:03:51.954 -03 [6116] LOG:  background worker "logical replication launcher" (PID 7524) exited with exit code 1
+2021-02-12 11:03:51.957 -03 [7480] LOG:  shutting down
+2021-02-12 11:03:51.964 -03 [7480] LOG:  could not parse file name "pg_logical/snapshots/desktop.ini"
+2021-02-12 11:03:52.035 -03 [6116] LOG:  database system is shut down

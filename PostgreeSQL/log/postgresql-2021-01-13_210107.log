@@ -1,0 +1,25 @@
+2021-01-13 21:01:07.897 -03 [7128] LOG:  starting PostgreSQL 13.1, compiled by Visual C++ build 1914, 64-bit
+2021-01-13 21:01:07.902 -03 [7128] LOG:  listening on IPv6 address "::", port 5432
+2021-01-13 21:01:07.903 -03 [7128] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-01-13 21:01:08.054 -03 [7880] LOG:  database system was shut down at 2021-01-13 20:59:08 -03
+2021-01-13 21:01:08.106 -03 [7128] LOG:  database system is ready to accept connections
+2021-01-13 21:33:17.431 -03 [8884] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-01-13 21:33:17.433 -03 [8884] FATAL:  password authentication failed for user "postgree"
+2021-01-13 21:33:17.433 -03 [8884] DETAIL:  Role "postgree" does not exist.
+	Connection matched pg_hba.conf line 88: "host    all             all             ::1/128                 scram-sha-256"
+2021-01-13 21:33:17.435 -03 [8884] LOG:  could not send data to client: An existing connection was forcibly closed by the remote host.
+	
+2021-01-13 21:33:18.039 -03 [14632] FATAL:  password authentication failed for user "postgree"
+2021-01-13 21:33:18.039 -03 [14632] DETAIL:  Role "postgree" does not exist.
+	Connection matched pg_hba.conf line 88: "host    all             all             ::1/128                 scram-sha-256"
+2021-01-13 23:21:01.549 -03 [10252] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-01-13 23:21:01.571 -03 [16380] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-01-13 23:21:03.553 -03 [7128] LOG:  received fast shutdown request
+2021-01-13 23:21:03.557 -03 [7128] LOG:  aborting any active transactions
+2021-01-13 23:21:03.564 -03 [8036] ERROR:  canceling statement due to user request
+2021-01-13 23:21:03.583 -03 [7128] LOG:  background worker "logical replication launcher" (PID 8036) exited with exit code 1
+2021-01-13 23:21:03.590 -03 [7996] LOG:  shutting down
+2021-01-13 23:21:03.647 -03 [7128] LOG:  database system is shut down

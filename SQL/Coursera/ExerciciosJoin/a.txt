@@ -1,0 +1,22 @@
+1 
+SELECT COUNT(AlbumId)
+FROM albums 
+WHERE ArtistId IN 
+(SELECT ArtistID
+FROM artists
+WHERE Name = 'Led Zeppelin')
+
+
+3
+SELECT B.FirstName, B.LastName, A.InvoiceId
+FROM invoices A
+LEFT JOIN customers B ON A.CustomerId = B.CustomerId
+WHERE 
+
+4 -
+
+SELECT Title, SUM(UnitPrice)
+FROM tracks A
+INNER JOIN albums B ON A.AlbumId = B.AlbumID
+GROUP BY Title
+HAVING Title = 'Big Ones'
