@@ -18,6 +18,15 @@ struct Books
 // To access any member of a structure, we must use
 // the member access operator dot.
 
+
+// Create a function to print books:
+void printingBooks(Books variableBook){
+  cout<<variableBook.Author<<"\n";
+  cout<<variableBook.Title<<"\n";
+  cout<<variableBook.ID<<"\n";
+  cout<<variableBook.price<<"\n";
+}
+
 int main ()
 {
   book1.ID = 10;
@@ -27,15 +36,9 @@ int main ()
   strcpy(book1.Title, "Data structures");
   strcpy(book1.Author, "Mark");
 
-  // Print with cout
 
-  // Parece uma concatenação, uma atribuição louca de parametros
-  // Para resultar no cout
-  cout<<"Book1 title is: "<<book1.Title<<"\n";
-
-  cout<<"Book1 ID is "<<book1.ID<<"\n";
-
-  cout<<"ID: "<<book1.ID<<" and the price:"<<book1.price<<"\n";
+  // Call the function
+  printingBooks(book1);
 
   // Declare book2 as local var:
   // Datatype Books created with struct is here called
@@ -43,4 +46,6 @@ int main ()
 
   book2.ID = 100;
   cout<<book2.ID<<"\n";
+
+  printingBooks(book2);
 }
