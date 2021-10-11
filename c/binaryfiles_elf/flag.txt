@@ -1,1 +1,0 @@
-only root must have acces to this file!'
