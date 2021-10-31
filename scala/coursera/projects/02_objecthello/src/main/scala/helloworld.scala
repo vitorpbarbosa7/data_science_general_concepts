@@ -3,5 +3,5 @@ object HelloWorld extends App {
     println(s"Hello, $name")
   }
   println("Hello World")
-  greet(name = "Anna")
+  greet(name = "AnnSa")
 }
