@@ -1,8 +1,0 @@
-#Código para copiar o caminho do arquivo e converter para o padrão \\:
-x = scan("clipboard", what="string")
-
-# Código para limpeza da tela
-cat("\014")
-
-#Código para limpar a variable explorer
-rm(list=ls())

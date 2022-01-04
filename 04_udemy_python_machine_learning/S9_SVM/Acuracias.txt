@@ -1,0 +1,12 @@
+Desempenho do modelo SVM:
+
+0.946 - kernel= 'linear' e C=1
+0.946 - kernel= 'linear' e C=2
+
+0.968 - kernel= 'poly' e C=1
+
+0.982 - kernel= 'rbf' e C=1
+0.988 - kernel= 'rbf' e C=2
+0.984 - kernel= 'rbf' e C=3
+
+0.838 - kernel= 'sigmoid' e C=1

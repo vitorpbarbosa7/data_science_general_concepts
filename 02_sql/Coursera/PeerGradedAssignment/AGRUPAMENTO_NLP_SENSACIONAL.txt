@@ -1,0 +1,719 @@
+Data Scientist Role Play: Profiling and Analyzing the Yelp Dataset Coursera Worksheet
+
+This is a 2-part assignment. In the first part, you are asked a series of questions that will help you profile and understand the data just like a data scientist would. For this first part of the assignment, you will be assessed both on the correctness of your findings, as well as the code you used to arrive at your answer. You will be graded on how easy your code is to read, so remember to use proper formatting and comments where necessary.
+
+In the second part of the assignment, you are asked to come up with your own inferences and analysis of the data for a particular research question you want to answer. You will be required to prepare the dataset for the analysis you choose to do. As with the first part, you will be graded, in part, on how easy your code is to read, so use proper formatting and comments to illustrate and communicate your intent as required.
+
+For both parts of this assignment, use this "worksheet." It provides all the questions you are being asked, and your job will be to transfer your answers and SQL coding where indicated into this worksheet so that your peers can review your work. You should be able to use any Text Editor (Windows Notepad, Apple TextEdit, Notepad ++, Sublime Text, etc.) to copy and paste your answers. If you are going to use Word or some other page layout application, just be careful to make sure your answers and code are lined appropriately.
+In this case, you may want to save as a PDF to ensure your formatting remains intact for you reviewer.
+
+
+
+Part 1: Yelp Dataset Profiling and Understanding
+
+1. Profile the data by finding the total number of records for each of the tables below:
+	
+i. Attribute table = 10000 
+ii. Business table = 10000 
+iii. Category table = 10000 
+iv. Checkin table = 10000
+v. elite_years table = 10000
+vi. friend table =  10000
+vii. hours table = 10000
+viii. photo table =  10000
+ix. review table =  10000
+x. tip table =  10000
+xi. user table = 10000
+	
+
+
+2. Find the total distinct records by either the foreign key or primary key for each table. If two foreign keys are listed in the table, please specify which foreign key.
+
+i. Business = 10000
+ii. Hours = 1562 
+iii. Category = 2643 
+iv. Attribute =  1115
+v. Review = 10000 
+vi. Checkin = 493 
+vii. Photo = 10000 
+viii. Tip = 10000 
+ix. User = 537 (user_id), 3979 (business_id)
+x. Friend = 11
+xi. Elite_years = 2780 
+
+Note: Primary Keys are denoted in the ER-Diagram with a yellow key icon.	
+
+
+
+3. Are there any columns with null values in the Users table? Indicate "yes," or "no."
+
+	Answer: no
+	
+	
+	SQL code used to arrive at answer:
+
+	--The first command was to copy more easily the column names
+	
+	PRAGMA table_info(user)
+
+	--The next commands were ran secuentially, one by one, chinking if there were null values in each column
+	
+	SELECT *
+	FROM user
+	WHERE id IS NULL;
+
+	SELECT *
+	FROM user
+	WHERE name IS NULL;
+
+	SELECT *
+	FROM user
+	WHERE review_count IS NULL;
+
+	SELECT *
+	FROM user
+	WHERE yelping_since IS NULL;
+
+	SELECT *
+	FROM user
+	WHERE useful IS NULL;
+
+	SELECT *
+	FROM user
+	WHERE funny IS NULL;
+
+	SELECT *
+	FROM user
+	WHERE cool IS NULL;
+
+	SELECT *
+	FROM user
+	WHERE fans IS NULL;
+
+	SELECT *
+	FROM user
+	WHERE average_stars IS NULL;
+
+	SELECT *
+	FROM user
+	WHERE compliment_hot IS NULL;
+
+	SELECT *
+	FROM user
+	WHERE compliment_more IS NULL;
+
+	SELECT *
+	FROM user
+	WHERE compliment_profile IS NULL;
+
+	SELECT *
+	FROM user
+	WHERE compliment_cute IS NULL;
+
+	SELECT *
+	FROM user
+	WHERE compliment_list IS NULL;
+
+	SELECT *
+	FROM user
+	WHERE compliment_note IS NULL;
+
+	SELECT *
+	FROM user
+	WHERE compliment_list IS NULL;
+
+	SELECT *
+	FROM user
+	WHERE compliment_plain IS NULL;
+
+	SELECT *
+	FROM user
+	WHERE compliment_cool IS NULL;
+
+	SELECT *
+	FROM user
+	WHERE compliment_funny IS NULL;
+
+	SELECT *
+	FROM user
+	WHERE compliment_writer IS NULL;
+
+	SELECT *
+	FROM user
+	WHERE compliment_photos IS NULL;
+
+	
+4. For each table and column listed below, display the smallest (minimum), largest (maximum), and average (mean) value for the following fields:
+
+	i. Table: Review, Column: Stars
+	
+		min: 1		max: 5		avg: 3.7082
+		
+	
+	ii. Table: Business, Column: Stars
+	
+		min: 1		max: 5		avg: 3.6549
+		
+	
+	iii. Table: Tip, Column: Likes
+	
+		min: 0		max: 2		avg: 0.0144
+		
+	
+	iv. Table: Checkin, Column: Count
+	
+		min: 1		max: 53		avg: 1.9414
+		
+	
+	v. Table: User, Column: Review_count
+	
+		min: 0		max: 2000 	avg: 24.2995
+		
+
+
+5. List the cities with the most reviews in descending order:
+
+	SQL code used to arrive at answer:
+
+		--First in inner join between the business table and the reviews table taking into account the business id
+		SELECT b.city, count(*) as count_city
+		FROM Review r
+  			INNER JOIN Business b
+  			ON b.id=r.business_id
+		
+		GROUP BY city
+		ORDER BY count_city DESC
+	
+	
+	Copy and Paste the Result Below:
+	
++-----------------+------------+
+| city            | count_city |
++-----------------+------------+
+| Las Vegas       |        193 |
+| Phoenix         |         65 |
+| Toronto         |         51 |
+| Scottsdale      |         37 |
+| Henderson       |         30 |
+| Tempe           |         28 |
+| Pittsburgh      |         23 |
+| Chandler        |         22 |
+| Charlotte       |         21 |
+| Montréal        |         18 |
+| Madison         |         16 |
+| Gilbert         |         13 |
+| Mesa            |         13 |
+| Cleveland       |         12 |
+| North Las Vegas |          6 |
+| Edinburgh       |          5 |
+| Glendale        |          5 |
+| Lakewood        |          5 |
+| Cave Creek      |          4 |
+| Champaign       |          4 |
+| Markham         |          4 |
+| North York      |          4 |
+| Mississauga     |          3 |
+| Surprise        |          3 |
+| Avondale        |          2 |
++-----------------+------------+
+(Output limit exceeded, 25 of 67 total rows shown)
+
+
+
+	
+6. Find the distribution of star ratings to the business in the following cities:
+
+i. Avon
+
+SQL code used to arrive at answer:
+
+SELECT r.stars, b.city
+FROM Review r
+  INNER JOIN Business b
+  ON b.id=r.business_id
+WHERE b.city='Avon';
+
+
+Copy and Paste the Resulting Table Below (2 columns â€“ star rating and count):
+
++-------+------+
+| stars | city |
++-------+------+
++-------+------+
+(Zero rows)
+
+
+ii. Beachwood
+
+SQL code used to arrive at answer:
+
+SELECT r.stars, b.city
+FROM Review r
+  INNER JOIN Business b
+  ON b.id=r.business_id
+WHERE b.city='Beachwood';
+
+
+Copy and Paste the Resulting Table Below (2 columns â€“ star rating and count):
+		
++-------+-----------+
+| stars | city      |
++-------+-----------+
+|     3 | Beachwood |
++-------+-----------+
+
+7. Find the top 3 users based on their total number of reviews:
+		
+	SQL code used to arrive at answer:
+	
+SELECT id, name, review_count
+FROM User
+ORDER BY review_count DESC;
+		
+	Copy and Paste the Result Below:
+		
++------------------------+-----------+--------------+
+| id                     | name      | review_count |
++------------------------+-----------+--------------+
+| -G7Zkl1wIWBBmD0KRy_sCw | Gerald    |         2000 |
+| -3s52C4zL_DHRK0ULG6qtg | Sara      |         1629 |
+| -8lbUNlXVSoXqaRRiHiSNg | Yuri      |         1339 |
+
+
+8. Does posing more reviews correlate with more fans?
+
+	Please explain your findings and interpretation of the results:
+	
+I calculated the correlation coefficient R2. First I calculated the desviation of each data point X and Y,
+as well as the product for the desviations for each row with the following code.
+
+SELECT review_count
+  , review_count - (SELECT avg(review_count) FROM User) AS X  -- x-avg(x)
+  , fans - (SELECT avg(fans) FROM User) AS Y -- y-avg(y)
+  , (review_count - (SELECT avg(review_count) FROM User))*(fans - (SELECT avg(fans) FROM User)) AS XY --Product of desviations
+FROM User
+
+The table obtained had the following structure:
+
++--------------+-----------+----------+---------------+
+| review_count |         X |        Y |            XY |
++--------------+-----------+----------+---------------+
+|          245 |  220.7005 |  13.5104 |  2981.7520352 |
+|            2 |  -22.2995 |  -1.4896 |    33.2173352 |
+|           57 |   32.7005 |  -1.4896 |   -48.7106648 |
+|            8 |  -16.2995 |  -1.4896 |    24.2797352 |
+|            2 |  -22.2995 |  -1.4896 |    33.2173352 |
+
+
+The variance can be calculated as follows
+
+SELECT 
+  SUM((review_count - (SELECT avg(review_count) FROM User))
+  * (review_count - (SELECT avg(review_count) FROM User))
+  ) / COUNT(*) AS X_VARIANCE
+  
+  ,SUM((fans - (SELECT avg(fans) FROM User))
+  * (fans - (SELECT avg(fans) FROM User))
+  ) / COUNT(*) AS Y_VARIANCE
+
+FROM User
+
+
+And here are the obtained results
++---------------+--------------+
+|    X_VARIANCE |   Y_VARIANCE |
++---------------+--------------+
+| 5620.33379975 | 112.80909184 |
++---------------+--------------+
+
+
+Unifying the variances and the sums of the XY column one can obtain the correlation coefficient R2 with:
+
+
+
+SELECT 
+
+--First sum(XY)^2 as nominator
+  (
+  AVG(
+    (review_count - (SELECT avg(review_count) FROM User))*(fans - (SELECT avg(fans) FROM User))
+  )
+  
+  *
+  
+  AVG(
+    (review_count - (SELECT avg(review_count) FROM User))*(fans - (SELECT avg(fans) FROM User))
+  )
+  )
+  
+-- As denominator we have the product of variances
+
+  /
+  
+  (
+  (SUM((review_count - (SELECT avg(review_count) FROM User))
+    * (review_count - (SELECT avg(review_count) FROM User))
+    ) / COUNT(*))
+ 
+  *
+ 
+  (SUM((fans - (SELECT avg(fans) FROM User))
+    * (fans - (SELECT avg(fans) FROM User))
+    ) / COUNT(*))
+  )
+
+  AS R2
+
+FROM User
+
+
+The result is
++----------------+
+|             R2 |
++----------------+
+| 0.437136492915 |
++----------------+
+
+That means there is just a mild correlation between the two variables.
+
+	
+9. Are there more reviews with the word "love" or with the word "hate" in them?
+
+	Answer: More with the word "love"
+
+	
+	SQL code used to arrive at answer:
+
+SELECT
+--Counting appereaces of "love"
+  (SELECT count(*)
+    FROM Review
+    WHERE lower(text) LIKE '%love%') AS N_love
+    
+--Counting appereaces of "hate"
+  , (SELECT count(*) as N_hate
+    FROM Review
+  WHERE lower(text) LIKE '%hate%') AS N_hate
+
+
+The result of the code was:
++--------+--------+
+| N_love | N_hate |
++--------+--------+
+|   1780 |    232 |
++--------+--------+
+
+	
+	
+10. Find the top 10 users with the most fans:
+
+	SQL code used to arrive at answer:
+
+SELECT name, fans
+FROM user
+ORDER BY fans DESC
+LIMIT 10;
+	
+	Copy and Paste the Result Below:
+
++-----------+------+
+| name      | fans |
++-----------+------+
+| Amy       |  503 |
+| Mimi      |  497 |
+| Harald    |  311 |
+| Gerald    |  253 |
+| Christine |  173 |
+| Lisa      |  159 |
+| Cat       |  133 |
+| William   |  126 |
+| Fran      |  124 |
+| Lissa     |  120 |
++-----------+------+
+		
+
+Part 2: Inferences and Analysis
+
+1. Pick one city and category of your choice and group the businesses in that city or category by their overall star rating. Compare the businesses with 2-3 stars to the businesses with 4-5 stars and answer the following questions. Include your code.
+	
+i. Do the two groups you chose to analyze have a different distribution of hours?
+
+Yes, there is a different distribution of hours. For businesses with 2-3 stars, the hour range is nocturnal (22:00-3:00):
++------+-----------+-------+---------------------+
+| name | city      | stars | hours               |
++------+-----------+-------+---------------------+
+| Mood | Edinburgh |   2.0 | Sunday|22:30-3:00   |
+| Mood | Edinburgh |   2.0 | Friday|22:00-3:00   |
+| Mood | Edinburgh |   2.0 | Saturday|22:00-3:00 |
+| Mood | Edinburgh |   2.0 | Thursday|22:30-3:00 |
++------+-----------+-------+---------------------+
+
+On the other hand, for businesses with more than 3 stars, the hour range is 9:00-18:00 or 12:00-22:30
++------------------------+-----------+-------+-----------------------+
+| name                   | city      | stars | hours                 |
++------------------------+-----------+-------+-----------------------+
+| A & A Traders          | Edinburgh |   3.5 | Monday|9:00-18:00     |
+| A & A Traders          | Edinburgh |   3.5 | Tuesday|9:00-18:00    |
+| A & A Traders          | Edinburgh |   3.5 | Friday|9:00-18:00     |
+| A & A Traders          | Edinburgh |   3.5 | Wednesday|9:00-18:00  |
+| A & A Traders          | Edinburgh |   3.5 | Thursday|9:00-18:00   |
+| A & A Traders          | Edinburgh |   3.5 | Saturday|9:00-18:00   |
+| Miros Cantina Mexicana | Edinburgh |   4.0 | Monday|12:00-22:30    |
+| Miros Cantina Mexicana | Edinburgh |   4.0 | Tuesday|12:00-22:30   |
+| Miros Cantina Mexicana | Edinburgh |   4.0 | Friday|12:00-22:30    |
+| Miros Cantina Mexicana | Edinburgh |   4.0 | Wednesday|12:00-22:30 |
+| Miros Cantina Mexicana | Edinburgh |   4.0 | Thursday|12:00-22:30  |
+| Miros Cantina Mexicana | Edinburgh |   4.0 | Sunday|12:00-22:30    |
+| Miros Cantina Mexicana | Edinburgh |   4.0 | Saturday|12:00-22:30  |
++------------------------+-----------+-------+-----------------------+
+
+ii. Do the two groups you chose to analyze have a different number of reviews?
+
+There is no diference between the number of reviews per business, however there are more reviews for the places with higher scores,
+as shown in the following result table
+
++------------------------+-------------------------------+--------+--------+-----------+---------------+
+| businessID             | name                          | BStars | RStars | city      | NumberReviews |
++------------------------+-------------------------------+--------+--------+-----------+---------------+
+| 0-m97wbqNoJxkis_48rOSA | Jade Palace                   |    2.5 |      3 | Edinburgh |             1 |
+| 1X9DnaRUexCmwohV2E-f1g | Pizza Express                 |    3.5 |      4 | Edinburgh |             1 |
+| 2slkAiECSJ0cDB8Lfb7zyw | Roseburn Cafe                 |    3.5 |      4 | Edinburgh |             1 |
+| -F-hHAOj55_KGCh4-ZfnCg | Princes Street                |    4.5 |      5 | Edinburgh |             1 |
+| -OFyJGYp-S_8fzEARqw3HA | Dovecot Cafe by Stag Espresso |    4.5 |      4 | Edinburgh |             1 |
++------------------------+-------------------------------+--------+--------+-----------+---------------+
+         
+iii. Are you able to infer anything from the location data provided between these two groups? Explain.
+
+First we check if there is any correlation between the average rating in a state with its latitude or longitude
++-------+---------------+----------------+---------------+--------------+
+| state |     Avg_Stars |       Avg_Long |       Avg_Lat | N_Businesses |
++-------+---------------+----------------+---------------+--------------+
+| ST    |           5.0 |        11.7684 |       51.2163 |            2 |
+| ELN   | 4.16666666667 | -2.87219666667 | 55.9634666667 |            6 |
+| MLN   |         3.875 |     -3.2017775 |    55.9365875 |            8 |
+| EDH   | 3.78902953586 |  -3.7858921519 | 56.0934679325 |          237 |
+| BW    | 3.75495049505 |  9.17006415842 | 48.7704826733 |          202 |
+| PA    | 3.74683544304 | -79.9660433996 |  40.444041953 |          553 |
+| NV    | 3.72930765226 | -115.174814159 | 36.1187973972 |         1921 |
+| AZ    | 3.72156476003 | -111.988623866 | 33.4982464497 |         3042 |
+| WI    | 3.70158102767 | -89.4155837945 | 43.0729747036 |          253 |
+| FIF   |           3.7 |      -3.321246 |       56.0844 |            5 |
+| HLD   | 3.66666666667 |      -4.216345 |     57.485825 |           12 |
+| NYK   | 3.66666666667 |      -0.613763 | 54.4875666667 |            3 |
+| QC    | 3.63870967742 | -73.6072591398 | 45.5207548387 |          465 |
+| OH    | 3.58165997323 | -81.6522789826 | 41.4214464525 |          747 |
+| NC    | 3.56232686981 | -80.8803114958 | 35.2325918283 |          722 |
+| SC    | 3.52564102564 | -80.9278153846 | 35.0256538462 |           39 |
+| IL    | 3.50925925926 | -88.2453944444 |       40.1059 |          108 |
+| ESX   |           3.5 |      0.0519609 |       50.7931 |            1 |
+| NY    |           3.5 | -87.5000333333 | 42.0545666667 |            3 |
+| WLN   |           3.5 |      -3.540745 |      55.89175 |            2 |
+| ON    | 3.46544471154 | -79.4265740986 | 43.7092872596 |         1664 |
+| C     | 3.33333333333 | -58.4854666667 |      -34.5054 |            3 |
+| NI    |           3.0 |        9.71738 |      52.29725 |            2 |
++-------+---------------+----------------+---------------+--------------+
+
+However, the correlation between latitude and number of stars is of 0.0012, and for longitude and number of
+stars is 0.0006, showing there is no correlation for either.
+
+Besides, there the average longitude and latitude is almost the same when taking restaurants with less than
+3.5 stars, than taking restaurants with more than 3.5 stars.
+
+Less than 3.5 stars>
++--------------+---------------+--------------+
+|    Avg_Stars |       Avg_Lat | N_Businesses |
++--------------+---------------+--------------+
+| 2.4922215308 | 38.5185301182 |         3214 |
++--------------+---------------+--------------+
+
+More than 3.5 stars>
++---------------+--------------+--------------+
+|     Avg_Stars |      Avg_Lat | N_Businesses |
++---------------+--------------+--------------+
+| 4.45607028754 | 38.371032488 |         5008 |
++---------------+--------------+--------------+
+
+
+SQL code used for analysis:
+
+i. 
+
+--For businesses with less than 3 stars
+SELECT b.name, b.city, b.stars, h.hours
+FROM (business b
+      INNER JOIN hours h ON b.id=h.business_id)
+WHERE city='Edinburgh'
+  AND stars BETWEEN 0 AND 3
+ORDER BY stars
+
+
+And also
+
+--For businesses with more than 3 stars
+SELECT b.name, b.city, b.stars, h.hours
+FROM (business b
+      INNER JOIN hours h ON b.id=h.business_id)
+WHERE city='Edinburgh'
+  AND stars BETWEEN 3 AND 5
+ORDER BY stars
+
+
+ii. 
+
+SELECT r.business_id AS businessID, b.name, b.stars AS BStars, r.stars AS RStars, b.city, count(*) AS NumberReviews
+FROM Review r
+  LEFT JOIN business b ON b.id=r.business_id
+WHERE b.city='Edinburgh'
+GROUP BY businessID
+ORDER BY Bstars
+
+iii.
+
+SELECT city
+    , state
+    , avg(stars) AS Avg_Stars
+    , avg(longitude) AS Avg_Long
+    , avg(latitude) AS Avg_Lat
+    , count(*) AS N_Businesses
+
+FROM business
+GROUP BY state
+ORDER BY Avg_Stars DESC
+
+		
+		
+2. Group business based on the ones that are open and the ones that are closed. What differences can you find between the ones that are still open and the ones that are closed? List at least two differences and the SQL code you used to arrive at your answer.
+
+		
+i. Difference 1: The number of restaurants that remain open is slightly higher for the ones with better ratings.
++---------------+---------+--------+
+|    avg(stars) | is_open | Number |
++---------------+---------+--------+
+| 2.08432147563 |       1 |   1518 |
+| 2.19333333333 |       0 |    300 |
+| 4.08966244726 |       0 |    948 |
+| 4.22439191504 |       1 |   5838 |
++---------------+---------+--------+
+
+Percentage of businesses with more han 3 stars that remain open: 83.5%
+Percentage of businesses with more han 3 stars that remain open: 86.0% 
+         
+ii. Difference 2: Open businesses have more reviews
++---------------------------+---------+
+| TotalReviews_per_business | is_open |
++---------------------------+---------+
+|                        23 |       0 |
+|                        31 |       1 |
++---------------------------+---------+
+         
+         
+         
+SQL code used for analysis:
+
+i.
+
+SELECT avg(stars), is_open, count(*) AS Number
+FROM business
+WHERE stars<3
+GROUP BY is_open
+
+UNION
+
+SELECT avg(stars), is_open, count(*) AS Number
+FROM business
+WHERE stars>3
+GROUP BY is_open
+
+
+ii.
+
+SELECT sum(review_count)/count(*) AS TotalReviews_per_business, is_open
+FROM business
+GROUP BY is_open
+	
+	
+3. For this last part of your analysis, you are going to choose the type of analysis you want to conduct on the Yelp dataset and are going to prepare the data for analysis.
+
+Ideas for analysis include: Parsing out keywords and business attributes for sentiment analysis, clustering businesses to find commonalities or anomalies between them, predicting the overall star rating for a business, predicting the number of fans a user will have, and so on. These are just a few examples to get you started, so feel free to be creative and come up with your own problem you want to solve. Provide answers, in-line, to all of the following:
+	
+i. Indicate the type of analysis you chose to do:
+     Clustering reasons of negative reviews
+         
+ii. Write 1-2 brief paragraphs on the type of data you will need for your analysis and why you chose that data:
+    I will use the stars data and the text unstructured data from the Review table.                      
+                  
+iii. Output of your finished dataset:
+
+Ordered by number of reviews
++---------------+-------------------+-----------------+
+|    avg(stars) | Number_of_reviews | Category        |
++---------------+-------------------+-----------------+
+| 2.01769230769 |              1300 | Other           |
+| 1.95565749235 |               654 | time of service |
+| 2.01418439716 |               564 | price           |
+| 2.10526315789 |               437 | flavour         |
+| 1.49541284404 |               327 | attention       |
+| 1.64285714286 |                98 | cleanliness     |
+| 1.74468085106 |                47 | schedule        |
+| 1.57142857143 |                21 | money back      |
++---------------+-------------------+-----------------+
+
+Ordered by stars
++---------------+-------------------+-----------------+
+|    avg(stars) | Number_of_reviews | Category        |
++---------------+-------------------+-----------------+
+| 1.49541284404 |               327 | attention       |
+| 1.57142857143 |                21 | money back      |
+| 1.64285714286 |                98 | cleanliness     |
+| 1.74468085106 |                47 | schedule        |
+| 1.95565749235 |               654 | time of service |
+| 2.01418439716 |               564 | price           |
+| 2.01769230769 |              1300 | Other           |
+| 2.10526315789 |               437 | flavour         |
++---------------+-------------------+-----------------+
+
+The worst reviews are given because of bad attention and from people who want their moeny back.
+         
+iv. Provide the SQL code you used to create your final dataset:
+
+SELECT avg(stars), count(*) AS Number_of_reviews,
+  CASE
+    --Related to attention
+    WHEN text LIKE ('%attention%') THEN 'attention'
+    WHEN text LIKE ('%rude%') THEN 'attention'
+    WHEN text LIKE ('%bad service%') THEN 'attention'
+    --Related to flavour and taste
+    WHEN text LIKE ('%taste%') THEN 'flavour'
+    WHEN text LIKE ('%no flavor%') THEN 'flavour'
+    WHEN text LIKE ('%lack % flavor%') THEN 'flavour'
+    --Related to cleanliness
+    WHEN text LIKE ('%dirty%') THEN 'cleanliness'
+    WHEN text LIKE ('%hygiene%') THEN 'cleanliness'
+    WHEN text LIKE ('%odor%') THEN 'cleanliness'
+    WHEN text LIKE ('%not clean%') THEN 'cleanliness'
+    --Related to price
+    WHEN text LIKE ('%cost%') THEN 'price'
+    WHEN text LIKE ('%fee%') THEN 'price'
+    WHEN text LIKE ('%overprice%') THEN 'price'
+    WHEN text LIKE ('%expensive%') THEN 'price'
+    --Related to schedule
+    WHEN text LIKE ('%closed%') THEN 'schedule'
+    --Related to time of service
+    WHEN text LIKE ('%slow%') THEN 'time of service'
+    WHEN text LIKE ('%wait%') THEN 'time of service'
+    WHEN text LIKE ('%too long%') THEN 'time of service'
+    WHEN text LIKE ('%late%') THEN 'time of service'
+    WHEN text LIKE ('%busye%') THEN 'attention'
+    --Asking for money back
+    WHEN text LIKE ('%money back%') THEN 'money back'
+    WHEN text LIKE ('%back%money%') THEN 'money back'
+    ELSE 'Other'
+  END Category
+    
+FROM review
+WHERE stars<4
+GROUP BY Category
+ORDER BY avg(stars)
+
+
+

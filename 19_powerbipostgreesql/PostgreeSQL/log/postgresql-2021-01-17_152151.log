@@ -1,0 +1,47 @@
+2021-01-17 15:21:51.678 -03 [7788] LOG:  starting PostgreSQL 13.1, compiled by Visual C++ build 1914, 64-bit
+2021-01-17 15:21:51.681 -03 [7788] LOG:  listening on IPv6 address "::", port 5432
+2021-01-17 15:21:51.683 -03 [7788] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-01-17 15:21:51.841 -03 [8256] LOG:  database system was shut down at 2021-01-16 22:56:43 -03
+2021-01-17 15:21:51.904 -03 [7788] LOG:  database system is ready to accept connections
+2021-01-17 20:04:37.078 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:06:07.138 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:07:07.164 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:08:07.194 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:09:07.217 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:10:07.342 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:11:37.284 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:13:07.321 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:14:07.442 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:15:37.496 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:16:37.514 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:17:37.537 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:18:37.664 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:20:07.609 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:21:07.640 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:22:07.755 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:23:07.791 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:24:07.814 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:25:37.848 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:26:37.878 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:27:37.903 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:28:37.936 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:30:07.972 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:31:07.989 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:32:08.016 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:33:08.141 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:34:38.094 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:35:38.128 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:36:38.153 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:37:38.180 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:38:38.199 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:39:38.229 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:40:38.262 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:41:38.294 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:42:38.423 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:43:38.446 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 20:45:08.402 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 21:35:36.803 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 21:36:36.945 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 21:38:07.000 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 21:39:07.029 -03 [8484] WARNING:  worker took too long to start; canceled
+2021-01-17 21:39:24.988 -03 [8500] ERROR:  canceling statement due to user request

@@ -1,0 +1,25 @@
+C:\Users\vitor>python
+Python 3.7.0 (default, Jun 28 2018, 08:04:48) [MSC v.1912 64 bit (AMD64)] :: Anaconda, Inc. on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import tensorflow as tf
+2020-02-11 22:22:52.817026: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudart64_101.dll
+>>> tf.config.list_physical_devices('GPU')
+2020-02-11 22:23:07.451547: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library nvcuda.dll
+2020-02-11 22:23:08.052059: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties:
+pciBusID: 0000:02:00.0 name: GeForce MX230 computeCapability: 6.1
+coreClock: 1.531GHz coreCount: 2 deviceMemorySize: 2.00GiB deviceMemoryBandwidth: 44.76GiB/s
+2020-02-11 22:23:08.061311: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudart64_101.dll
+2020-02-11 22:23:08.067886: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cublas64_10.dll
+2020-02-11 22:23:08.079826: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cufft64_10.dll
+2020-02-11 22:23:08.083891: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library curand64_10.dll
+2020-02-11 22:23:08.095466: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cusolver64_10.dll
+2020-02-11 22:23:08.103313: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cusparse64_10.dll
+2020-02-11 22:23:08.202852: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudnn64_7.dll
+2020-02-11 22:23:08.206183: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+>>>
+
+
+
+
+

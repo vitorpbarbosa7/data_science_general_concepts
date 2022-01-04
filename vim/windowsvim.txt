@@ -1,1 +1,0 @@
-Utilizando vim no windows, good. Installed via choco install vim
