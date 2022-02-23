@@ -10,3 +10,6 @@
 [submodule "29_bash_scripting"]
 	path = 29_bash_scripting
 	url = https://github.com/vitorpbarbosa7/bash-scripting
+[submodule "21_neural_network_from_scratch"]
+	path = 21_neural_network_from_scratch
+	url = git@github.com:vitorpbarbosa7/NNScratch.git
