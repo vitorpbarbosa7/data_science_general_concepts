@@ -7,3 +7,6 @@
 [submodule "28_cookiecutter"]
 	path = 28_cookiecutter
 	url = https://github.com/vitorpbarbosa7/cookiecutter
+[submodule "29_bash_scripting"]
+	path = 29_bash_scripting
+	url = https://github.com/vitorpbarbosa7/bash-scripting
