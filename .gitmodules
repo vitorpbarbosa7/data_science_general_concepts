@@ -4,3 +4,6 @@
 [submodule "27_docker"]
 	path = 27_docker
 	url = https://github.com/vitorpbarbosa7/docker
+[submodule "28_cookiecutter"]
+	path = 28_cookiecutter
+	url = https://github.com/vitorpbarbosa7/cookiecutter
