@@ -1,0 +1,3 @@
+[submodule "26_kedro"]
+	path = 26_kedro
+	url = https://github.com/vitorpbarbosa7/kedro
