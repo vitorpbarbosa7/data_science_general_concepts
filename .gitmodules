@@ -1,3 +1,6 @@
 [submodule "26_kedro"]
 	path = 26_kedro
 	url = https://github.com/vitorpbarbosa7/kedro
+[submodule "27_docker"]
+	path = 27_docker
+	url = https://github.com/vitorpbarbosa7/docker
