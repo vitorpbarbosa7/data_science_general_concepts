@@ -1,3 +1,4 @@
+*.ipynb_checkpoints
 *__MACOSX*
 cloudera_hue_impala_hive/
 DOE/PQI2510/PQI2510 - Estatística/Livros/statistics for experimenters - box and hunter.pdf
@@ -205,6 +206,50 @@ Udemy-DeepLearning/S6_RegressaoCarros/data/autos.csv
 02_cloudera_hue_impala_hive/202102_FavorecidosPJ.zip
 02_sql/Hive_Impala_Hue_Cloudera/fin_trans.tsv
 02_sql/Udemy/M1/AdventureWorks2017.bak
+08_udemy_deeplearning/.git/objects/f7/2040d77a9f136a2b440c0e8f377690f71998c0
+08_udemy_deeplearning/S6_RegressaoCarros/data/autos.csv
+10_doe_designofexperiments/PQI2510/PQI2510 - Estatística/Livros/statistics for experimenters - box and hunter.pdf
+10_doe_designofexperiments/Software/designexpert.rar
+10_doe_designofexperiments/Videos/Equações normais de mínimos quadrados. Dedução e aplicação ao fatorial 2^k #DOE 9.mp4
+16_scala/coursera/eclipse/.metadata/.plugins/org.eclipse.jdt.core/646308851.index
+16_scala/coursera/_sctools/tools/cs
+16_scala/_sctools/tools/cs
+20_redesneurais/CNN/cifar10/cifar-10-batches-py/data_batch_1
+20_redesneurais/CNN/cifar10/cifar-10-batches-py/data_batch_2
+20_redesneurais/CNN/cifar10/cifar-10-batches-py/data_batch_3
+20_redesneurais/CNN/cifar10/cifar-10-batches-py/data_batch_4
+20_redesneurais/CNN/cifar10/cifar-10-batches-py/data_batch_5
+20_redesneurais/CNN/cifar10/cifar-10-batches-py/test_batch
+20_redesneurais/CNN/cifar10/cifar-10-python.tar.gz
+23_powerbi_datascience/.git/objects/pack/pack-ce9baf7252e44fd5a9de16d5df2edef55fd7075e.pack
+25_knime/sales.csv
+01_timeseries/data/df.csv
+02_cloudera_hue_impala_hive/202102_CNPJ.csv
+02_cloudera_hue_impala_hive/202102_FavorecidosPJ.zip
+03_sql/Hive_Impala_Hue_Cloudera/fin_trans.tsv
+03_sql/Udemy/M1/AdventureWorks2017.bak
+08_udemy_deeplearning/.git/objects/f7/2040d77a9f136a2b440c0e8f377690f71998c0
+08_udemy_deeplearning/S6_RegressaoCarros/data/autos.csv
+10_doe_designofexperiments/PQI2510/PQI2510 - Estatística/Livros/statistics for experimenters - box and hunter.pdf
+10_doe_designofexperiments/Software/designexpert.rar
+10_doe_designofexperiments/Videos/Equações normais de mínimos quadrados. Dedução e aplicação ao fatorial 2^k #DOE 9.mp4
+16_scala/coursera/eclipse/.metadata/.plugins/org.eclipse.jdt.core/646308851.index
+16_scala/coursera/_sctools/tools/cs
+16_scala/_sctools/tools/cs
+20_redesneurais/CNN/cifar10/cifar-10-batches-py/data_batch_1
+20_redesneurais/CNN/cifar10/cifar-10-batches-py/data_batch_2
+20_redesneurais/CNN/cifar10/cifar-10-batches-py/data_batch_3
+20_redesneurais/CNN/cifar10/cifar-10-batches-py/data_batch_4
+20_redesneurais/CNN/cifar10/cifar-10-batches-py/data_batch_5
+20_redesneurais/CNN/cifar10/cifar-10-batches-py/test_batch
+20_redesneurais/CNN/cifar10/cifar-10-python.tar.gz
+23_powerbi_datascience/.git/objects/pack/pack-ce9baf7252e44fd5a9de16d5df2edef55fd7075e.pack
+25_knime/sales.csv
+01_timeseries/data/df.csv
+02_cloudera_hue_impala_hive/202102_CNPJ.csv
+02_cloudera_hue_impala_hive/202102_FavorecidosPJ.zip
+03_sql/Hive_Impala_Hue_Cloudera/fin_trans.tsv
+03_sql/Udemy/M1/AdventureWorks2017.bak
 08_udemy_deeplearning/.git/objects/f7/2040d77a9f136a2b440c0e8f377690f71998c0
 08_udemy_deeplearning/S6_RegressaoCarros/data/autos.csv
 10_doe_designofexperiments/PQI2510/PQI2510 - Estatística/Livros/statistics for experimenters - box and hunter.pdf
