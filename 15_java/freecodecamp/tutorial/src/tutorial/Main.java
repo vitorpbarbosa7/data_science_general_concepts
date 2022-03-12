@@ -16,17 +16,15 @@ public class Main {
 	 *  args equivalent to *args in python, could be any name?
 	 *  */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		/* Hello World*/
-		/* System.out.println("Hello World"); */
 		
 		/* */
-		int hello_world = 5;
+		int helloWorld = 5;
 		double num2 = 5.0;
 		boolean b = false;
-		/*
-		System.out.println(hello_world);
+		
+		System.out.println(helloWorld);
 		System.out.println(num2);
-		System.out.println(b);*/
+		System.out.println(b);
 	}
 }
