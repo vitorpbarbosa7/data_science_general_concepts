@@ -1,5 +1,7 @@
 package forloops;
 
+import java.util.Scanner;
+
 public class Main {
 	
 	public static void main(String[] args) {
@@ -21,5 +23,38 @@ public class Main {
 				System.out.println("Found a " + CONSTANT + " at index " + i);
 			}
 		}
+		
+//		Loop in another way
+		int count = 0;
+//		Like in python, created by Barbara Liskov
+		for (int element:numbersToIterate) {
+			System.out.println("Element: " + element + " at index: " + count);
+			count++;
+		}
+		
+//		Populate a array with for loop
+		Scanner sc = new Scanner(System.in);
+		String[] names = new String[5];
+		for (int i = 0; i < names.length; i++) {
+			System.out.print("Input: ");
+			String input = sc.nextLine();
+			names[i] = input;
+			if (i == 2) {
+				break;
+			}
+		}
+		
+//		Print each name
+		for (String item:names) {
+			System.out.println(item);
+		}
+		
 	}
 }
+
+//Input: Roberta Arcoverde
+//Michael
+//Robert
+//Akita
+//Paulo Silveira
+//Roberta Arcoverde
