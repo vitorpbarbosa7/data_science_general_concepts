@@ -12,6 +12,7 @@ public class Computer {
     public Computer(String aliasName, int year) {
         this.aliasName = aliasName;
         this.year = year;
+        addYears(2);
     }
 
     public void boot() {
@@ -27,5 +28,9 @@ public class Computer {
     // setter
     public void setAge(int year) {
         this.year = year;
+    }
+
+    private int addYears(int years) { 
+        return this.year += years;
     }
 }

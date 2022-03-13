@@ -15,12 +15,12 @@ public class Main {
     
     macbook.boot();
     out.println(macbook.getYear());
-    macbook.setAge(2021);
+    macbook.setAge(2030);
     out.println(macbook.getYear());
 
     asusRog.boot();
     out.println(asusRog.getYear());
-    asusRog.setAge(2022);
+    asusRog.setAge(2030);
     out.println(asusRog.getYear());
     }
 }
