@@ -1,4 +1,5 @@
 package arrays;
+import static java.lang.System.*;
 
 import java.util.Arrays;
 
@@ -26,5 +27,14 @@ public class Main {
 	System.out.println(receiveArrayValue);
 	System.out.println(Arrays.toString(exampleNums));
 	System.out.println(Arrays.toString(randomNums));
+	
+//	Sorting array
+	int[] unsortedArray = {-99,5,3,7,1,4,2,3};
+	
+	Arrays.sort(unsortedArray);
+	
+	for (int arrayItem:unsortedArray) {
+		out.println(arrayItem);
+	}
 	}
 }
