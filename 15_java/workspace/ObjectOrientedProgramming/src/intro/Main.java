@@ -13,7 +13,7 @@ public class Main {
 
 		int originalValue = 777;
 		int addNumber = 380;
-		out.println(addValue(originalValue, addNumber));
+		out.println(addValue(originalValue, addNumber));	
 	}
 	
 	
@@ -26,7 +26,7 @@ public class Main {
 		numberOfComputers + " " + 
 		computerName);
 	}
-
+// int : returns type int
 	public static int addValue(int originalValue, int addNumber){
 		return originalValue + addNumber;
 	}
