@@ -12,6 +12,20 @@ public class Main {
     String asusRogAliasName = "AsusRog";
     int asusRogYear = 2019;
     Computer asusRog = new Computer(asusRogAliasName, asusRogYear);
+
+    String acerAspireAliasName = "Acer Aspire";
+    int acerAspireYear = 2022;
+    int batteryAcerAspire = 80;
+
+    Notebook acerAspire = new Notebook(acerAspireAliasName, 
+                                        acerAspireYear, 
+                                        batteryAcerAspire);
+
+    acerAspire.discharge();
+    acerAspire.boot();
+    out.println(acerAspire.getYear());
+    acerAspire.setAge(2025);
+    out.println(acerAspire.getYear());
     
     macbook.boot();
     out.println(macbook.getYear());
