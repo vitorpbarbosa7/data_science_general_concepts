@@ -6,6 +6,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/Users/vpb/Documents/01_ds/git/00_data_science_general_concepts/15_java/freecodecamp/tutorial"/>
 			<item value="/media/vpb/GD_/USP/DS/01Git/00_cursos_gerais/15_java/freecodecamp/tutorial"/>
 		</list>
 	</section>

@@ -22,7 +22,4 @@ public class Notebook extends Computer{
                             + " is "
                             + this.batteryCharge);
     }
-    
-
-    
 }
