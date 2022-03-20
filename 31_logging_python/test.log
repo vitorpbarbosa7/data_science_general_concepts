@@ -1,0 +1,16 @@
+DEBUG:root:Add 10 + 5 = 15
+DEBUG:root:Subtract 10 - 5 = 5
+DEBUG:root:Multiply 10 * 5 = 50
+DEBUG:root:Divide 10 / 5 = 2.0
+DEBUG:root:Add 20 + 10 = 30
+DEBUG:root:Subtract 20 - 10 = 10
+DEBUG:root:Multiply 20 * 10 = 200
+DEBUG:root:Divide 20 / 10 = 2.0
+2022-03-19 22:24:25,384:DEBUG:Add 20 + 10 = 30
+2022-03-19 22:24:25,384:DEBUG:Subtract 20 - 10 = 10
+2022-03-19 22:24:25,384:DEBUG:Multiply 20 * 10 = 200
+2022-03-19 22:24:25,385:DEBUG:Divide 20 / 10 = 2.0
+2022-03-19 22:25:13,135:intro.py:DEBUG:Add 20 + 10 = 30
+2022-03-19 22:25:13,135:intro.py:DEBUG:Subtract 20 - 10 = 10
+2022-03-19 22:25:13,135:intro.py:DEBUG:Multiply 20 * 10 = 200
+2022-03-19 22:25:13,135:intro.py:DEBUG:Divide 20 / 10 = 2.0
