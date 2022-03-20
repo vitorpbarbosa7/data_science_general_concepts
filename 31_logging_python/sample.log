@@ -1,0 +1,21 @@
+2022-03-20 14:25:56,718:DEBUG:sample:sample.py:Add 20 + 10 = 30
+2022-03-20 14:25:56,718:DEBUG:sample:sample.py:Subtract 20 - 10 = 10
+2022-03-20 14:25:56,718:DEBUG:sample:sample.py:Multiply 20 * 10 = 200
+2022-03-20 14:25:56,718:DEBUG:sample:sample.py:Divide 20 / 10 = 2.0
+2022-03-20 14:31:00,074:ERROR:sample:sample.py:Divide by zero is not possible
+2022-03-20 14:31:43,169:ERROR:sample:sample.py:Divide by zero is not possible
+2022-03-20 14:32:51,216:ERROR:sample:sample.py:Tried to divide by zero
+Traceback (most recent call last):
+  File "/Users/vpb/Documents/01_ds/git/00_data_science_general_concepts/31_logging_python/sample.py", line 56, in divide
+    result = x / y
+ZeroDivisionError: division by zero
+2022-03-20 14:36:45,948:ERROR:sample:sample.py:Tried to divide by zero
+Traceback (most recent call last):
+  File "/Users/vpb/Documents/01_ds/git/00_data_science_general_concepts/31_logging_python/sample.py", line 60, in divide
+    result = x / y
+ZeroDivisionError: division by zero
+2022-03-20 14:38:27,003:ERROR:sample:sample.py:Tried to divide by zero
+Traceback (most recent call last):
+  File "/Users/vpb/Documents/01_ds/git/00_data_science_general_concepts/31_logging_python/sample.py", line 61, in divide
+    result = x / y
+ZeroDivisionError: division by zero
