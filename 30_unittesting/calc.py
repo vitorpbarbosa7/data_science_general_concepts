@@ -21,5 +21,5 @@ def divide(x, y):
     Divides two numbers
     '''
     if y == 0:
-        raise ValueError('Can not divide by zero!')
+        raise ZeroDivisionError('Can not divide by zero!')
     return x / y

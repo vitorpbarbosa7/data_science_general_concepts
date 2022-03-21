@@ -1,0 +1,52 @@
+2022-03-20 21:25:51,787:INFO:main:main.py:BOTH INCLUDE PUBLICATION DATES
+2022-03-20 21:25:51,787:INFO:main:main.py:ASSERTING EQUIVALENCE OF...
+2022-03-20 21:26:58,970:INFO:main:main.py:BOTH INCLUDE PUBLICATION DATES
+2022-03-20 21:26:58,970:INFO:main:main.py:ASSERTING EQUIVALENCE OF...
+2022-03-20 21:27:22,835:INFO:main:main.py:BOTH INCLUDE PUBLICATION DATES
+2022-03-20 21:27:22,835:INFO:main:main.py:ASSERTING EQUIVALENCE OF...
+2022-03-20 21:27:22,835:INFO:main:main.py:a value is 'The Stand' by Stephen King at 1153 pages, published on January 01, 1978.
+2022-03-20 21:27:22,835:INFO:main:main.py:b value is 'The Stand' by Stephen King at 1153 pages, published on January 01, 1978.
+2022-03-20 21:27:43,570:INFO:main:main.py:BOTH INCLUDE PUBLICATION DATES
+2022-03-20 21:27:43,570:INFO:main:main.py:ASSERTING EQUIVALENCE OF...
+2022-03-20 21:27:43,570:INFO:main:main.py:a value is 'The Stand' by Stephen King at 1153 pages, published on January 01, 1978.
+2022-03-20 21:27:43,570:INFO:main:main.py:b value is 'The Stand' by Stephen King at 1153 pages, published on January 01, 1978.
+2022-03-20 21:27:43,570:INFO:main:main.py:The objects are equal.
+2022-03-20 21:27:54,109:INFO:main:main.py:BOTH INCLUDE PUBLICATION DATES
+2022-03-20 21:27:54,109:INFO:main:main.py:ASSERTING EQUIVALENCE OF...
+2022-03-20 21:27:54,109:INFO:main:main.py:a value is 'The Stand' by Stephen King at 1153 pages, published on January 01, 1978.
+2022-03-20 21:27:54,109:INFO:main:main.py:b value is 'The Stand' by Stephen King at 1153 pages, published on January 01, 1978.
+2022-03-20 21:27:54,109:INFO:main:main.py:The objects are equal.
+2022-03-20 21:35:57,900:INFO:main:main.py:BOTH INCLUDE PUBLICATION DATES
+2022-03-20 21:35:57,901:INFO:main:main.py:ASSERTING EQUIVALENCE OF...
+2022-03-20 21:35:57,901:INFO:main:main.py:a value is 'The Stand' by Stephen King at 1153 pages, published on January 01, 1978.
+2022-03-20 21:35:57,901:INFO:main:main.py:b value is 'The Stand ' by Stephen King at 1153 pages, published on January 01, 1978.
+2022-03-20 21:35:57,901:ERROR:main:main.py:The objects ARE NOT equal.
+Traceback (most recent call last):
+  File "/Users/vpb/Documents/01_ds/git/00_data_science_general_concepts/30_unittesting/logging_complete_example/main.py", line 61, in check_equality
+    assert a == b, "The objects ARE NOT equal."
+AssertionError: The objects ARE NOT equal.
+2022-03-20 21:35:57,901:INFO:main:main.py:ASSERTING EQUIVALENCE OF...
+2022-03-20 21:35:57,901:INFO:main:main.py:a value is 'Clean Code' by Robert C. Martin at 500 pages, published on June 12, 1999.
+2022-03-20 21:35:57,901:INFO:main:main.py:b value is 'Clean Architecture' by Robert C. Martin at 350 pages, published on May 07, 1995.
+2022-03-20 21:35:57,901:ERROR:main:main.py:The objects ARE NOT equal.
+Traceback (most recent call last):
+  File "/Users/vpb/Documents/01_ds/git/00_data_science_general_concepts/30_unittesting/logging_complete_example/main.py", line 61, in check_equality
+    assert a == b, "The objects ARE NOT equal."
+AssertionError: The objects ARE NOT equal.
+2022-03-20 21:36:51,522:INFO:main:main.py:BOTH INCLUDE PUBLICATION DATES
+2022-03-20 21:36:51,523:INFO:main:main.py:ASSERTING EQUIVALENCE OF...
+2022-03-20 21:36:51,523:INFO:main:main.py:a value is 'The Stand' by Stephen King at 1153 pages, published on January 01, 1978.
+2022-03-20 21:36:51,523:INFO:main:main.py:b value is 'The Stand ' by Stephen King at 1153 pages, published on January 01, 1978.
+2022-03-20 21:36:51,523:ERROR:main:main.py:The objects ARE NOT equal.
+Traceback (most recent call last):
+  File "/Users/vpb/Documents/01_ds/git/00_data_science_general_concepts/30_unittesting/logging_complete_example/main.py", line 61, in check_equality
+    assert a == b, "The objects ARE NOT equal."
+AssertionError: The objects ARE NOT equal.
+2022-03-20 21:36:51,523:INFO:main:main.py:ASSERTING EQUIVALENCE OF...
+2022-03-20 21:36:51,523:INFO:main:main.py:a value is 'Clean Code' by Robert C. Martin at 500 pages, published on June 12, 1999.
+2022-03-20 21:36:51,523:INFO:main:main.py:b value is 'Clean Architecture' by Robert C. Martin at 350 pages, published on May 07, 1995.
+2022-03-20 21:36:51,523:ERROR:main:main.py:The objects ARE NOT equal.
+Traceback (most recent call last):
+  File "/Users/vpb/Documents/01_ds/git/00_data_science_general_concepts/30_unittesting/logging_complete_example/main.py", line 61, in check_equality
+    assert a == b, "The objects ARE NOT equal."
+AssertionError: The objects ARE NOT equal.

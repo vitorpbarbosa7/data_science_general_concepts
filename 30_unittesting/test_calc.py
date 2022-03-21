@@ -45,5 +45,26 @@ class TestCalc(unittest.TestCase):
         result = calc.multiply(0, 0)
         self.assertEqual(result, 0)
 
+    def test_divide(self):
+        result = calc.divide(10, 5)
+        self.assertEqual(result,2)
+
+        result = calc.divide(-10, 5)
+        self.assertEqual(result,-2)
+
+        result = calc.divide(-7, -1)
+        self.assertEqual(result,7)
+
+        result = calc.divide(0, 1)
+        self.assertEqual(result, 0)
+
+        with self.assertRaises(Exception) as context:
+            calc.divide(0, 0)
+        self.assertTrue('Can not divide by zero' in str(context.exception))
+
+        with self.assertRaises(Exception) as context:
+            calc.divide(-5, 0)
+        self.assertTrue('Can not divide by zero' in str(context.exception))
+
 if __name__ == '__main__':
     unittest.main()
