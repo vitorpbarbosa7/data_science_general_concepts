@@ -13,3 +13,6 @@
 [submodule "21_neural_network_from_scratch"]
 	path = 21_neural_network_from_scratch
 	url = git@github.com:vitorpbarbosa7/NNScratch.git
+[submodule "05_design_patterns_learning"]
+	path = 05_design_patterns_learning
+	url = git@github.com:vitorpbarbosa7/design_patterns_python.git
