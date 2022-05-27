@@ -1,7 +1,0 @@
-2021-02-04 20:40:23.512 -03 [7316] LOG:  starting PostgreSQL 13.1, compiled by Visual C++ build 1914, 64-bit
-2021-02-04 20:40:23.599 -03 [7316] LOG:  listening on IPv6 address "::", port 5432
-2021-02-04 20:40:23.608 -03 [7316] LOG:  listening on IPv4 address "0.0.0.0", port 5432
-2021-02-04 20:40:23.690 -03 [7316] LOG:  could not open directory "pg_tblspc/desktop.ini/PG_13_202007201": No such file or directory
-2021-02-04 20:40:25.183 -03 [8584] LOG:  database system was shut down at 2021-02-04 20:39:44 -03
-2021-02-04 20:40:25.274 -03 [7316] LOG:  database system is ready to accept connections
-2021-02-04 20:45:25.355 -03 [8940] LOG:  could not parse file name "pg_logical/snapshots/desktop.ini"

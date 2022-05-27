@@ -1,8 +1,0 @@
-2021-02-14 22:21:42.057 -03 [7204] LOG:  received fast shutdown request
-2021-02-14 22:21:42.062 -03 [7204] LOG:  aborting any active transactions
-2021-02-14 22:21:42.066 -03 [5108] ERROR:  canceling statement due to user request
-2021-02-14 22:21:42.066 -03 [8152] ERROR:  canceling statement due to user request
-2021-02-14 22:21:42.086 -03 [7204] LOG:  background worker "logical replication launcher" (PID 8152) exited with exit code 1
-2021-02-14 22:21:42.088 -03 [6624] LOG:  shutting down
-2021-02-14 22:21:42.091 -03 [6624] LOG:  could not parse file name "pg_logical/snapshots/desktop.ini"
-2021-02-14 22:21:42.113 -03 [7204] LOG:  database system is shut down
