@@ -362,3 +362,6 @@ Udemy-DeepLearning/S6_RegressaoCarros/data/autos.csv
 ./.git/objects/pack/pack-9d020d970ddf30b8758914e28bee931bfde67888.pack
 ./.git/objects/pack/pack-9d020d970ddf30b8758914e28bee931bfde67888.pack
 ./.git/objects/pack/pack-9d020d970ddf30b8758914e28bee931bfde67888.pack
+./.git/objects/pack/pack-9d020d970ddf30b8758914e28bee931bfde67888.pack
+./37_conformity_score/venv/lib/python3.9/site-packages/numpy/.dylibs/libopenblas64_.0.dylib
+./37_conformity_score/venv/lib/python3.9/site-packages/scipy/.dylibs/libopenblas.0.dylib
