@@ -34,8 +34,11 @@ jpd = np.c_[np.ones(len(X_train_s)), np.array(X_train_s), np.array(y_train)]
 
 # sigmoid
 # z is theta0 + theta1*X1 + ... thetaN*XN
-def sigmoid(z):
-	predict_proba = 1 / (1 + np.exp(-z))
+def sigmoid(log_odds):
+	#log_odds is the commonly writen z parameter
+	#the parameter which is in -infinity to +infinity range
+	#log_odds = theta0*X0 + theta1*X1 + theta2*X2 + ... + thetaN*XN + 1
+	predict_proba = 1 / (1 + np.exp(-log_odds))
 	return predict_proba
 
 n_epochs= 10
@@ -52,16 +55,20 @@ theta0_set, theta1_set, theta2_set, theta3_set, log_likelihood_set = [], [], [],
 
 for epoch in range(n_epochs):
 	count = 0
+	# chose to maximize the log_likelihood, instead of minimizing it
 	log_likelihood = 0
 	
 	# for every row, every single input of covariates
 	for single_sample in jpd:
+		#calculation of log_odds for every instance
 		log_odds = sum(thetas * single_sample[:4])
+		# gets the probability from the log_odds value
 		y_pred_proba = sigmoid(log_odds)
 		y_actual = single_sample[-1]
 		
 		# gradient vector for each covariate
-		# a derivada parcial para cada um dos covariates
+		# a derivada parcial para cada um dos covariates (each instance, each single_sample)
+		# this complete derivative, can be found here : https://www.youtube.com/watch?v=0VMK18nphpg
 		gradients = (y_actual - y_pred_proba) * single_sample[:4]
 		
 		# update parameters		
