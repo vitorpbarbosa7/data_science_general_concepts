@@ -1,0 +1,132 @@
+INFO:__main__:
+			Generation 0 Survived best genomes are: [(['Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1045), (['Phone', 'Baseball cap', 'Headphones', 'Water Bottle'], 780), (['Phone', 'Baseball cap', 'Water Bottle'], 630), (['Baseball cap', 'Headphones', 'Water Bottle'], 280)]
+			
+INFO:__main__:
+			Generation 0 Survived best genomes are: [(['Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1045), (['Phone', 'Baseball cap', 'Headphones', 'Water Bottle'], 780), (['Phone', 'Baseball cap', 'Water Bottle'], 630), (['Baseball cap', 'Headphones', 'Water Bottle'], 280), (['Tissues', 'Phone', 'Laptop'], 1015), (['Tissues', 'Baseball cap', 'Laptop', 'Headphones', 'Water Bottle'], 795)]
+			
+INFO:__main__:
+			Generation 0 Survived best genomes are: [(['Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1045), (['Phone', 'Baseball cap', 'Headphones', 'Water Bottle'], 780), (['Phone', 'Baseball cap', 'Water Bottle'], 630), (['Baseball cap', 'Headphones', 'Water Bottle'], 280), (['Tissues', 'Phone', 'Laptop'], 1015), (['Tissues', 'Baseball cap', 'Laptop', 'Headphones', 'Water Bottle'], 795), (['Tissues', 'Phone', 'Baseball cap', 'Water Bottle'], 645), (['Phone', 'Laptop', 'Water Bottle'], 1030)]
+			
+INFO:__main__:
+			Generation 0 Survived best genomes are: [(['Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1045), (['Phone', 'Baseball cap', 'Headphones', 'Water Bottle'], 780), (['Phone', 'Baseball cap', 'Water Bottle'], 630), (['Baseball cap', 'Headphones', 'Water Bottle'], 280), (['Tissues', 'Phone', 'Laptop'], 1015), (['Tissues', 'Baseball cap', 'Laptop', 'Headphones', 'Water Bottle'], 795), (['Tissues', 'Phone', 'Baseball cap', 'Water Bottle'], 645), (['Phone', 'Laptop', 'Water Bottle'], 1030), (['Coffee Mug', 'Water Bottle'], 90), (['Mints', 'Tissues', 'Laptop', 'Headphones', 'Coffee Mug'], 730)]
+			
+INFO:__main__:
+			Generation 1 Survived best genomes are: [(['Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1045), (['Phone', 'Laptop', 'Water Bottle'], 1030), (['Mints', 'Phone', 'Baseball cap', 'Headphones', 'Water Bottle'], 785), (['Phone', 'Laptop', 'Coffee Mug', 'Water Bottle'], 1090)]
+			
+INFO:__main__:
+			Generation 1 Survived best genomes are: [(['Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1045), (['Phone', 'Laptop', 'Water Bottle'], 1030), (['Mints', 'Phone', 'Baseball cap', 'Headphones', 'Water Bottle'], 785), (['Phone', 'Laptop', 'Coffee Mug', 'Water Bottle'], 1090), (['Phone', 'Baseball cap'], 600), (['Mints', 'Tissues', 'Baseball cap', 'Laptop', 'Headphones', 'Coffee Mug', 'Water Bottle'], 0)]
+			
+INFO:__main__:
+			Generation 1 Survived best genomes are: [(['Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1045), (['Phone', 'Laptop', 'Water Bottle'], 1030), (['Mints', 'Phone', 'Baseball cap', 'Headphones', 'Water Bottle'], 785), (['Phone', 'Laptop', 'Coffee Mug', 'Water Bottle'], 1090), (['Phone', 'Baseball cap'], 600), (['Mints', 'Tissues', 'Baseball cap', 'Laptop', 'Headphones', 'Coffee Mug', 'Water Bottle'], 0), (['Mints', 'Tissues', 'Laptop', 'Headphones', 'Coffee Mug'], 730), (['Mints', 'Phone', 'Baseball cap', 'Headphones'], 755)]
+			
+INFO:__main__:
+			Generation 1 Survived best genomes are: [(['Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1045), (['Phone', 'Laptop', 'Water Bottle'], 1030), (['Mints', 'Phone', 'Baseball cap', 'Headphones', 'Water Bottle'], 785), (['Phone', 'Laptop', 'Coffee Mug', 'Water Bottle'], 1090), (['Phone', 'Baseball cap'], 600), (['Mints', 'Tissues', 'Baseball cap', 'Laptop', 'Headphones', 'Coffee Mug', 'Water Bottle'], 0), (['Mints', 'Tissues', 'Laptop', 'Headphones', 'Coffee Mug'], 730), (['Mints', 'Phone', 'Baseball cap', 'Headphones'], 755), (['Phone', 'Baseball cap', 'Headphones', 'Water Bottle'], 780), (['Mints', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1050)]
+			
+INFO:__main__:
+			Generation 2 Survived best genomes are: [(['Phone', 'Laptop', 'Coffee Mug', 'Water Bottle'], 1090), (['Mints', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1050), (['Mints', 'Phone', 'Laptop', 'Water Bottle'], 1035), (['Mints', 'Phone', 'Baseball cap', 'Headphones'], 755)]
+			
+INFO:__main__:
+			Generation 2 Survived best genomes are: [(['Phone', 'Laptop', 'Coffee Mug', 'Water Bottle'], 1090), (['Mints', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1050), (['Mints', 'Phone', 'Laptop', 'Water Bottle'], 1035), (['Mints', 'Phone', 'Baseball cap', 'Headphones'], 755), (['Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1045), (['Mints', 'Tissues', 'Laptop', 'Water Bottle'], 550)]
+			
+INFO:__main__:
+			Generation 2 Survived best genomes are: [(['Phone', 'Laptop', 'Coffee Mug', 'Water Bottle'], 1090), (['Mints', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1050), (['Mints', 'Phone', 'Laptop', 'Water Bottle'], 1035), (['Mints', 'Phone', 'Baseball cap', 'Headphones'], 755), (['Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1045), (['Mints', 'Tissues', 'Laptop', 'Water Bottle'], 550), (['Mints', 'Phone', 'Laptop', 'Water Bottle'], 1035), (['Tissues', 'Phone', 'Baseball cap', 'Headphones', 'Water Bottle'], 795)]
+			
+INFO:__main__:
+			Generation 2 Survived best genomes are: [(['Phone', 'Laptop', 'Coffee Mug', 'Water Bottle'], 1090), (['Mints', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1050), (['Mints', 'Phone', 'Laptop', 'Water Bottle'], 1035), (['Mints', 'Phone', 'Baseball cap', 'Headphones'], 755), (['Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1045), (['Mints', 'Tissues', 'Laptop', 'Water Bottle'], 550), (['Mints', 'Phone', 'Laptop', 'Water Bottle'], 1035), (['Tissues', 'Phone', 'Baseball cap', 'Headphones', 'Water Bottle'], 795), (['Phone', 'Baseball cap'], 600), (['Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1045)]
+			
+INFO:__main__:
+			Generation 3 Survived best genomes are: [(['Phone', 'Laptop', 'Coffee Mug', 'Water Bottle'], 1090), (['Mints', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1050), (['Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1145), (['Mints', 'Phone', 'Headphones', 'Coffee Mug', 'Water Bottle'], 745)]
+			
+INFO:__main__:
+			Generation 3 Survived best genomes are: [(['Phone', 'Laptop', 'Coffee Mug', 'Water Bottle'], 1090), (['Mints', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1050), (['Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1145), (['Mints', 'Phone', 'Headphones', 'Coffee Mug', 'Water Bottle'], 745), (['Mints', 'Phone', 'Laptop'], 1005), (['Tissues', 'Phone', 'Baseball cap', 'Water Bottle'], 645)]
+			
+INFO:__main__:
+			Generation 3 Survived best genomes are: [(['Phone', 'Laptop', 'Coffee Mug', 'Water Bottle'], 1090), (['Mints', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1050), (['Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1145), (['Mints', 'Phone', 'Headphones', 'Coffee Mug', 'Water Bottle'], 745), (['Mints', 'Phone', 'Laptop'], 1005), (['Tissues', 'Phone', 'Baseball cap', 'Water Bottle'], 645), (['Laptop', 'Notepad', 'Water Bottle'], 570), (['Mints', 'Tissues', 'Phone', 'Baseball cap'], 620)]
+			
+INFO:__main__:
+			Generation 3 Survived best genomes are: [(['Phone', 'Laptop', 'Coffee Mug', 'Water Bottle'], 1090), (['Mints', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1050), (['Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1145), (['Mints', 'Phone', 'Headphones', 'Coffee Mug', 'Water Bottle'], 745), (['Mints', 'Phone', 'Laptop'], 1005), (['Tissues', 'Phone', 'Baseball cap', 'Water Bottle'], 645), (['Laptop', 'Notepad', 'Water Bottle'], 570), (['Mints', 'Tissues', 'Phone', 'Baseball cap'], 620), (['Mints', 'Phone', 'Laptop', 'Water Bottle'], 1035), (['Mints', 'Phone', 'Laptop', 'Water Bottle'], 1035)]
+			
+INFO:__main__:
+			Generation 4 Survived best genomes are: [(['Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1145), (['Phone', 'Laptop', 'Coffee Mug', 'Water Bottle'], 1090), (['Mints', 'Tissues', 'Baseball cap'], 120), (['Mints', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1050)]
+			
+INFO:__main__:
+			Generation 4 Survived best genomes are: [(['Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1145), (['Phone', 'Laptop', 'Coffee Mug', 'Water Bottle'], 1090), (['Mints', 'Tissues', 'Baseball cap'], 120), (['Mints', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1050), (['Mints', 'Phone', 'Laptop', 'Water Bottle'], 1035), (['Tissues', 'Baseball cap', 'Laptop', 'Water Bottle'], 645)]
+			
+INFO:__main__:
+			Generation 4 Survived best genomes are: [(['Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1145), (['Phone', 'Laptop', 'Coffee Mug', 'Water Bottle'], 1090), (['Mints', 'Tissues', 'Baseball cap'], 120), (['Mints', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1050), (['Mints', 'Phone', 'Laptop', 'Water Bottle'], 1035), (['Tissues', 'Baseball cap', 'Laptop', 'Water Bottle'], 645), (['Mints', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1050), (['Mints', 'Phone', 'Water Bottle'], 535)]
+			
+INFO:__main__:
+			Generation 4 Survived best genomes are: [(['Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1145), (['Phone', 'Laptop', 'Coffee Mug', 'Water Bottle'], 1090), (['Mints', 'Tissues', 'Baseball cap'], 120), (['Mints', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1050), (['Mints', 'Phone', 'Laptop', 'Water Bottle'], 1035), (['Tissues', 'Baseball cap', 'Laptop', 'Water Bottle'], 645), (['Mints', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1050), (['Mints', 'Phone', 'Water Bottle'], 535), (['Tissues', 'Baseball cap', 'Notepad', 'Water Bottle'], 185), (['Laptop', 'Water Bottle'], 530)]
+			
+INFO:__main__:
+			Generation 5 Survived best genomes are: [(['Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1145), (['Phone', 'Laptop', 'Coffee Mug', 'Water Bottle'], 1090), (['Socks', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1055), (['Mints', 'Phone', 'Laptop', 'Coffee Mug', 'Water Bottle'], 1095)]
+			
+INFO:__main__:
+			Generation 5 Survived best genomes are: [(['Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1145), (['Phone', 'Laptop', 'Coffee Mug', 'Water Bottle'], 1090), (['Socks', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1055), (['Mints', 'Phone', 'Laptop', 'Coffee Mug', 'Water Bottle'], 1095), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Socks', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1055)]
+			
+INFO:__main__:
+			Generation 5 Survived best genomes are: [(['Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1145), (['Phone', 'Laptop', 'Coffee Mug', 'Water Bottle'], 1090), (['Socks', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1055), (['Mints', 'Phone', 'Laptop', 'Coffee Mug', 'Water Bottle'], 1095), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Socks', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1055), (['Tissues', 'Baseball cap', 'Laptop', 'Water Bottle'], 645), (['Mints', 'Socks', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1060)]
+			
+INFO:__main__:
+			Generation 5 Survived best genomes are: [(['Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1145), (['Phone', 'Laptop', 'Coffee Mug', 'Water Bottle'], 1090), (['Socks', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1055), (['Mints', 'Phone', 'Laptop', 'Coffee Mug', 'Water Bottle'], 1095), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Socks', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1055), (['Tissues', 'Baseball cap', 'Laptop', 'Water Bottle'], 645), (['Mints', 'Socks', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1060), (['Mints', 'Tissues', 'Phone', 'Laptop', 'Coffee Mug', 'Water Bottle'], 0), (['Socks', 'Tissues', 'Baseball cap', 'Laptop', 'Water Bottle'], 655)]
+			
+INFO:__main__:
+			Generation 6 Survived best genomes are: [(['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1145), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Coffee Mug', 'Water Bottle'], 0), (['Socks', 'Tissues', 'Phone', 'Laptop', 'Notepad', 'Water Bottle'], 0)]
+			
+INFO:__main__:
+			Generation 6 Survived best genomes are: [(['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1145), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Coffee Mug', 'Water Bottle'], 0), (['Socks', 'Tissues', 'Phone', 'Laptop', 'Notepad', 'Water Bottle'], 0), (['Socks', 'Baseball cap', 'Laptop', 'Water Bottle'], 640), (['Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1145)]
+			
+INFO:__main__:
+			Generation 6 Survived best genomes are: [(['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1145), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Coffee Mug', 'Water Bottle'], 0), (['Socks', 'Tissues', 'Phone', 'Laptop', 'Notepad', 'Water Bottle'], 0), (['Socks', 'Baseball cap', 'Laptop', 'Water Bottle'], 640), (['Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1145), (['Socks', 'Tissues', 'Baseball cap', 'Laptop', 'Water Bottle'], 655), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160)]
+			
+INFO:__main__:
+			Generation 6 Survived best genomes are: [(['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1145), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Coffee Mug', 'Water Bottle'], 0), (['Socks', 'Tissues', 'Phone', 'Laptop', 'Notepad', 'Water Bottle'], 0), (['Socks', 'Baseball cap', 'Laptop', 'Water Bottle'], 640), (['Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1145), (['Socks', 'Tissues', 'Baseball cap', 'Laptop', 'Water Bottle'], 655), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Socks', 'Tissues', 'Baseball cap', 'Laptop', 'Water Bottle'], 655), (['Mints', 'Socks', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1060)]
+			
+INFO:__main__:
+			Generation 7 Survived best genomes are: [(['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Socks', 'Baseball cap', 'Laptop', 'Water Bottle'], 640), (['Socks', 'Tissues', 'Baseball cap', 'Laptop', 'Water Bottle'], 655)]
+			
+INFO:__main__:
+			Generation 7 Survived best genomes are: [(['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Socks', 'Baseball cap', 'Laptop', 'Water Bottle'], 640), (['Socks', 'Tissues', 'Baseball cap', 'Laptop', 'Water Bottle'], 655), (['Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1155), (['Mints', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1150)]
+			
+INFO:__main__:
+			Generation 7 Survived best genomes are: [(['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Socks', 'Baseball cap', 'Laptop', 'Water Bottle'], 640), (['Socks', 'Tissues', 'Baseball cap', 'Laptop', 'Water Bottle'], 655), (['Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1155), (['Mints', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1150), (['Mints', 'Socks', 'Baseball cap', 'Water Bottle'], 145), (['Socks', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1055)]
+			
+INFO:__main__:
+			Generation 7 Survived best genomes are: [(['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Socks', 'Baseball cap', 'Laptop', 'Water Bottle'], 640), (['Socks', 'Tissues', 'Baseball cap', 'Laptop', 'Water Bottle'], 655), (['Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1155), (['Mints', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1150), (['Mints', 'Socks', 'Baseball cap', 'Water Bottle'], 145), (['Socks', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1055), (['Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1130), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Coffee Mug', 'Water Bottle'], 0)]
+			
+INFO:__main__:
+			Generation 8 Survived best genomes are: [(['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Socks', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1055), (['Mints', 'Socks', 'Tissues', 'Baseball cap', 'Laptop', 'Water Bottle'], 660)]
+			
+INFO:__main__:
+			Generation 8 Survived best genomes are: [(['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Socks', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1055), (['Mints', 'Socks', 'Tissues', 'Baseball cap', 'Laptop', 'Water Bottle'], 660), (['Mints', 'Socks', 'Baseball cap', 'Laptop', 'Coffee Mug', 'Water Bottle'], 705), (['Mints', 'Socks', 'Tissues', 'Phone', 'Water Bottle'], 560)]
+			
+INFO:__main__:
+			Generation 8 Survived best genomes are: [(['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Socks', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1055), (['Mints', 'Socks', 'Tissues', 'Baseball cap', 'Laptop', 'Water Bottle'], 660), (['Mints', 'Socks', 'Baseball cap', 'Laptop', 'Coffee Mug', 'Water Bottle'], 705), (['Mints', 'Socks', 'Tissues', 'Phone', 'Water Bottle'], 560), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1150)]
+			
+INFO:__main__:
+			Generation 8 Survived best genomes are: [(['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Socks', 'Tissues', 'Phone', 'Laptop', 'Water Bottle'], 1055), (['Mints', 'Socks', 'Tissues', 'Baseball cap', 'Laptop', 'Water Bottle'], 660), (['Mints', 'Socks', 'Baseball cap', 'Laptop', 'Coffee Mug', 'Water Bottle'], 705), (['Mints', 'Socks', 'Tissues', 'Phone', 'Water Bottle'], 560), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1150), (['Mints', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1150), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Notepad', 'Water Bottle'], 0)]
+			
+INFO:__main__:
+			Generation 9 Survived best genomes are: [(['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Socks', 'Tissues', 'Phone', 'Water Bottle'], 555), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160)]
+			
+INFO:__main__:
+			Generation 9 Survived best genomes are: [(['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Socks', 'Tissues', 'Phone', 'Water Bottle'], 555), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Tissues', 'Baseball cap', 'Laptop', 'Water Bottle'], 650), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Water Bottle'], 660)]
+			
+INFO:__main__:
+			Generation 9 Survived best genomes are: [(['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Socks', 'Tissues', 'Phone', 'Water Bottle'], 555), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Tissues', 'Baseball cap', 'Laptop', 'Water Bottle'], 650), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Water Bottle'], 660), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Socks', 'Tissues', 'Baseball cap', 'Laptop'], 630)]
+			
+INFO:__main__:
+			Generation 9 Survived best genomes are: [(['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Socks', 'Tissues', 'Phone', 'Water Bottle'], 555), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Tissues', 'Baseball cap', 'Laptop', 'Water Bottle'], 650), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Water Bottle'], 660), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Socks', 'Tissues', 'Baseball cap', 'Laptop'], 630), (['Mints', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1150), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160)]
+			
+INFO:__main__:
+			Generation 10 Survived best genomes are: [(['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Headphones', 'Water Bottle'], 1310), (['Mints', 'Socks', 'Tissues', 'Baseball cap', 'Laptop'], 630)]
+			
+INFO:__main__:
+			Generation 10 Survived best genomes are: [(['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Headphones', 'Water Bottle'], 1310), (['Mints', 'Socks', 'Tissues', 'Baseball cap', 'Laptop'], 630), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Water Bottle'], 660), (['Mints', 'Tissues', 'Baseball cap', 'Laptop', 'Water Bottle'], 650)]
+			
+INFO:__main__:
+			Generation 10 Survived best genomes are: [(['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Headphones', 'Water Bottle'], 1310), (['Mints', 'Socks', 'Tissues', 'Baseball cap', 'Laptop'], 630), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Water Bottle'], 660), (['Mints', 'Tissues', 'Baseball cap', 'Laptop', 'Water Bottle'], 650), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Headphones', 'Water Bottle'], 1310)]
+			
+INFO:__main__:
+			Generation 10 Survived best genomes are: [(['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Headphones', 'Water Bottle'], 1310), (['Mints', 'Socks', 'Tissues', 'Baseball cap', 'Laptop'], 630), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Water Bottle'], 660), (['Mints', 'Tissues', 'Baseball cap', 'Laptop', 'Water Bottle'], 650), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Headphones', 'Water Bottle'], 1310), (['Mints', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Coffee Mug', 'Water Bottle'], 0), (['Mints', 'Socks', 'Tissues', 'Phone', 'Baseball cap', 'Laptop', 'Water Bottle'], 1160)]
+			
