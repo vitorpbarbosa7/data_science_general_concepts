@@ -33,10 +33,15 @@ cols = X_train.columns
 values = np.round(mi.view(),4)
 dicti = dict(zip(cols,values))
 
-_plot = pd.DataFrame.from_dict(data = dict(sorted(dicti.items(), key=lambda item: item[1])), orient = 'index')
+_plot = pd.DataFrame.from_dict(
+    data = dict(sorted(dicti.items(), 
+    key=lambda item: item[1])), 
+    orient = 'index'
+    )
 
-_plot = _plot.reset_index().rename(columns = {'index':'features',0:'mutual_information'}).\
-sort_values(by = 'mutual_information', ascending =  False)
+_plot = _plot.reset_index().rename(
+    columns = {'index':'features',0:'mutual_information'}
+    ).sort_values(by = 'mutual_information', ascending =  False)
 _plot
 
 _show = 10

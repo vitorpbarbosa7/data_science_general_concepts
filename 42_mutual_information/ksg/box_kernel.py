@@ -55,10 +55,10 @@ print(fxy)
 
 entropy = 0
 for _, fxy in fxy.items():
-	entropy += log2(fxy)
+	entropy += log2(1/fxy)
 	
 entropy = entropy/N
 
-print(entropy)
+print(f'Implemented method {entropy}')
 	
-print(mutual_info_score(x,y))
+print(f'Sklearn implementation with knn {mutual_info_score(x,y)}')
