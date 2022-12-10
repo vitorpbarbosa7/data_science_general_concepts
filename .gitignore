@@ -1,3 +1,4 @@
+__pycache__
 *.swp
 *.swap
 *.zip
@@ -402,3 +403,8 @@ Udemy-DeepLearning/S6_RegressaoCarros/data/autos.csv
 ./37_conformity_score/venv/lib/python3.9/site-packages/scipy/.dylibs/libopenblas.0.dylib
 =======
 >>>>>>> 7e084f1c1d257fc0591996521c3a61c8f26ae36a
+./.git/objects/pack/pack-e10d09286709e60835a12b753782ad8ad44aa04c.pack
+./.git/objects/pack/pack-9d020d970ddf30b8758914e28bee931bfde67888.pack
+./data/aps_failure_training_set.csv
+./37_conformity_score/venv/lib/python3.9/site-packages/numpy/.dylibs/libopenblas64_.0.dylib
+./37_conformity_score/venv/lib/python3.9/site-packages/scipy/.dylibs/libopenblas.0.dylib

@@ -5,10 +5,10 @@ import numpy as np
 from math import log2
 from sklearn.metrics import mutual_info_score
 
-x = [1,2,3,4,5,6,7,8,8,9,10,11]
+x = [1,7,1,7,3,3,10,1,0,0,1,0]
 y = [0.5,1,1.5,2,3,3,3,4,5,6,7,8]
 z = list(zip(x,y))
-r = 1.3
+r = 3
 
 print(len(x), len(y))
 
@@ -50,7 +50,7 @@ fxy = {}
 for point, single_point_near in probability_of_point_near.items():
 	
 	fxy[point] = single_point_near/2*r
-
+print(type(fxy))
 print(fxy)
 
 entropy = 0

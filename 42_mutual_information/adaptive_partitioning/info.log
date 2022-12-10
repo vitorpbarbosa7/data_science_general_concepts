@@ -1,0 +1,162 @@
+2022-12-10 14:00:28,945 - root - INFO - No path argument was provided. Using: None
+2022-12-10 14:00:28,946 - root - WARNING - Kedro extension was registered but couldn't find a Kedro project. Make sure you run `%reload_kedro <path_to_kedro_project>`.
+2022-12-10 14:03:31,334 - __main__ - INFO - Number of bins: (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10]),)
+2022-12-10 14:03:31,338 - __main__ - INFO - Points in the bin [[ 1  2  3  4  5  7  9 10  8  6 11]] and [[ 1  2  3  4  5  6  7  8  9 10 11]]
+2022-12-10 14:03:31,340 - __main__ - INFO - indices: (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10]),) & (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10]),)
+2022-12-10 14:03:31,345 - __main__ - INFO - Subpartitions [3. 6. 8.] & [3. 6. 8.]
+2022-12-10 14:03:31,351 - __main__ - INFO - Number of bins: (array([0, 1]),)
+2022-12-10 14:03:31,353 - __main__ - INFO - Points in the bin [[1 2]] and [[1 2]]
+2022-12-10 14:03:31,354 - __main__ - INFO - indices: (array([0, 1]),) & (array([0, 1]),)
+2022-12-10 14:03:31,355 - __main__ - INFO - Subpartitions [1. 1. 1.] & [1. 1. 1.]
+2022-12-10 14:03:31,356 - __main__ - INFO - Number of bins: (array([2, 3, 4]),)
+2022-12-10 14:03:31,357 - __main__ - INFO - Points in the bin [[3 4 5]] and [[3 4 5]]
+2022-12-10 14:03:31,359 - __main__ - INFO - indices: (array([2, 3, 4]),) & (array([2, 3, 4]),)
+2022-12-10 14:03:31,360 - __main__ - INFO - Subpartitions [3. 4. 4.] & [3. 4. 4.]
+2022-12-10 14:03:31,362 - __main__ - INFO - Number of bins: (array([5]),)
+2022-12-10 14:03:31,363 - __main__ - INFO - Points in the bin [[7]] and [[6]]
+2022-12-10 14:03:31,364 - __main__ - INFO - indices: (array([5, 9]),) & (array([5, 6]),)
+2022-12-10 14:03:31,365 - __main__ - INFO - Subpartitions [6. 6. 6.] & [6. 6. 6.]
+2022-12-10 14:03:31,367 - __main__ - INFO - Number of bins: (array([6]),)
+2022-12-10 14:03:31,367 - __main__ - INFO - Points in the bin [[9]] and [[7]]
+2022-12-10 14:03:31,368 - __main__ - INFO - indices: (array([ 6,  7,  8, 10]),) & (array([5, 6]),)
+2022-12-10 14:03:31,370 - __main__ - INFO - Subpartitions [ 8.  9. 10.] & [6. 6. 6.]
+2022-12-10 14:03:31,370 - __main__ - INFO - Number of bins: (array([9]),)
+2022-12-10 14:03:31,371 - __main__ - INFO - Points in the bin [[6]] and [[10]]
+2022-12-10 14:03:31,372 - __main__ - INFO - indices: (array([5, 9]),) & (array([ 7,  8,  9, 10]),)
+2022-12-10 14:03:31,373 - __main__ - INFO - Subpartitions [6. 6. 6.] & [ 8.  9. 10.]
+2022-12-10 14:03:31,374 - __main__ - INFO - Number of bins: (array([ 7,  8, 10]),)
+2022-12-10 14:03:31,375 - __main__ - INFO - Points in the bin [[10  8 11]] and [[ 8  9 11]]
+2022-12-10 14:03:31,376 - __main__ - INFO - indices: (array([ 6,  7,  8, 10]),) & (array([ 7,  8,  9, 10]),)
+2022-12-10 14:03:31,377 - __main__ - INFO - Subpartitions [ 8.  9. 10.] & [ 8.  9. 10.]
+2022-12-10 14:03:31,378 - __main__ - INFO - Variables in partition bucket
+---
+borders : {'nodes': array([ 1, 11,  1, 11]), 'npts': 11}
+---
+numParts : 4
+---
+alpha : 0.05
+---
+partitionBucket : [{'nodes': array([1., 2., 1., 2.]), 'npts': 2}, {'nodes': array([3., 5., 3., 5.]), 'npts': 3}, {'nodes': array([6., 7., 6., 7.]), 'npts': 1}, {'nodes': array([ 8., 11.,  6.,  7.]), 'npts': 1}, {'nodes': array([ 6.,  7.,  8., 11.]), 'npts': 1}, {'nodes': array([ 8., 11.,  8., 11.]), 'npts': 3}]
+---
+
+2022-12-10 14:03:31,950 - __main__ - INFO - Probability information = [0.18181818 0.27272727 0.09090909 0.09090909 0.09090909 0.27272727]
+2022-12-10 14:03:31,951 - __main__ - INFO - Partition celss: Variables in partition bucket
+---
+borders : {'nodes': array([ 1, 11,  1, 11]), 'npts': 11}
+---
+numParts : 4
+---
+alpha : 0.05
+---
+partitionBucket : [{'nodes': array([1., 2., 1., 2.]), 'npts': 2}, {'nodes': array([3., 5., 3., 5.]), 'npts': 3}, {'nodes': array([6., 7., 6., 7.]), 'npts': 1}, {'nodes': array([ 8., 11.,  6.,  7.]), 'npts': 1}, {'nodes': array([ 6.,  7.,  8., 11.]), 'npts': 1}, {'nodes': array([ 8., 11.,  8., 11.]), 'npts': 3}]
+---
+
+2022-12-10 14:10:33,013 - __main__ - INFO - Number of bins: (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10]),)
+2022-12-10 14:10:33,016 - __main__ - INFO - Points in the bin [[ 1  2  3  4  5  7  9 10  8  6 11]] and [[ 1  2  3  4  5  6  7  8  9 10 11]]
+2022-12-10 14:10:33,017 - __main__ - INFO - indices: (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10]),) & (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10]),)
+2022-12-10 14:10:33,022 - __main__ - INFO - Subpartitions [3. 6. 8.] & [3. 6. 8.]
+2022-12-10 14:10:33,027 - __main__ - INFO - Number of bins: (array([0, 1]),)
+2022-12-10 14:10:33,028 - __main__ - INFO - Points in the bin [[1 2]] and [[1 2]]
+2022-12-10 14:10:33,028 - __main__ - INFO - indices: (array([0, 1]),) & (array([0, 1]),)
+2022-12-10 14:10:33,029 - __main__ - INFO - Subpartitions [1. 1. 1.] & [1. 1. 1.]
+2022-12-10 14:10:33,029 - __main__ - INFO - Number of bins: (array([2, 3, 4]),)
+2022-12-10 14:10:33,030 - __main__ - INFO - Points in the bin [[3 4 5]] and [[3 4 5]]
+2022-12-10 14:10:33,030 - __main__ - INFO - indices: (array([2, 3, 4]),) & (array([2, 3, 4]),)
+2022-12-10 14:10:33,031 - __main__ - INFO - Subpartitions [3. 4. 4.] & [3. 4. 4.]
+2022-12-10 14:10:33,032 - __main__ - INFO - Number of bins: (array([5]),)
+2022-12-10 14:10:33,032 - __main__ - INFO - Points in the bin [[7]] and [[6]]
+2022-12-10 14:10:33,033 - __main__ - INFO - indices: (array([5, 9]),) & (array([5, 6]),)
+2022-12-10 14:10:33,034 - __main__ - INFO - Subpartitions [6. 6. 6.] & [6. 6. 6.]
+2022-12-10 14:10:33,035 - __main__ - INFO - Number of bins: (array([6]),)
+2022-12-10 14:10:33,036 - __main__ - INFO - Points in the bin [[9]] and [[7]]
+2022-12-10 14:10:33,036 - __main__ - INFO - indices: (array([ 6,  7,  8, 10]),) & (array([5, 6]),)
+2022-12-10 14:10:33,037 - __main__ - INFO - Subpartitions [ 8.  9. 10.] & [6. 6. 6.]
+2022-12-10 14:10:33,038 - __main__ - INFO - Number of bins: (array([9]),)
+2022-12-10 14:10:33,039 - __main__ - INFO - Points in the bin [[6]] and [[10]]
+2022-12-10 14:10:33,039 - __main__ - INFO - indices: (array([5, 9]),) & (array([ 7,  8,  9, 10]),)
+2022-12-10 14:10:33,041 - __main__ - INFO - Subpartitions [6. 6. 6.] & [ 8.  9. 10.]
+2022-12-10 14:10:33,041 - __main__ - INFO - Number of bins: (array([ 7,  8, 10]),)
+2022-12-10 14:10:33,042 - __main__ - INFO - Points in the bin [[10  8 11]] and [[ 8  9 11]]
+2022-12-10 14:10:33,043 - __main__ - INFO - indices: (array([ 6,  7,  8, 10]),) & (array([ 7,  8,  9, 10]),)
+2022-12-10 14:10:33,043 - __main__ - INFO - Subpartitions [ 8.  9. 10.] & [ 8.  9. 10.]
+2022-12-10 14:11:19,042 - __main__ - INFO - Number of bins: (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10]),)
+2022-12-10 14:11:19,046 - __main__ - INFO - Points in the bin [[ 1  2  3  4  5  7  9 10  8  6 11]] and [[ 1  2  3  4  5  6  7  8  9 10 11]]
+2022-12-10 14:11:19,048 - __main__ - INFO - indices: (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10]),) & (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10]),)
+2022-12-10 14:11:19,050 - __main__ - INFO - Subpartitions [3. 6. 8.] & [3. 6. 8.]
+2022-12-10 14:11:19,054 - __main__ - INFO - Number of bins: (array([0, 1]),)
+2022-12-10 14:11:19,055 - __main__ - INFO - Points in the bin [[1 2]] and [[1 2]]
+2022-12-10 14:11:19,056 - __main__ - INFO - indices: (array([0, 1]),) & (array([0, 1]),)
+2022-12-10 14:11:19,058 - __main__ - INFO - Subpartitions [1. 1. 1.] & [1. 1. 1.]
+2022-12-10 14:11:19,059 - __main__ - INFO - Number of bins: (array([2, 3, 4]),)
+2022-12-10 14:11:19,059 - __main__ - INFO - Points in the bin [[3 4 5]] and [[3 4 5]]
+2022-12-10 14:11:19,061 - __main__ - INFO - indices: (array([2, 3, 4]),) & (array([2, 3, 4]),)
+2022-12-10 14:11:19,062 - __main__ - INFO - Subpartitions [3. 4. 4.] & [3. 4. 4.]
+2022-12-10 14:11:19,063 - __main__ - INFO - Number of bins: (array([5]),)
+2022-12-10 14:11:19,064 - __main__ - INFO - Points in the bin [[7]] and [[6]]
+2022-12-10 14:11:19,065 - __main__ - INFO - indices: (array([5, 9]),) & (array([5, 6]),)
+2022-12-10 14:11:19,066 - __main__ - INFO - Subpartitions [6. 6. 6.] & [6. 6. 6.]
+2022-12-10 14:11:19,067 - __main__ - INFO - Number of bins: (array([6]),)
+2022-12-10 14:11:19,068 - __main__ - INFO - Points in the bin [[9]] and [[7]]
+2022-12-10 14:11:19,069 - __main__ - INFO - indices: (array([ 6,  7,  8, 10]),) & (array([5, 6]),)
+2022-12-10 14:11:19,071 - __main__ - INFO - Subpartitions [ 8.  9. 10.] & [6. 6. 6.]
+2022-12-10 14:11:19,072 - __main__ - INFO - Number of bins: (array([9]),)
+2022-12-10 14:11:19,073 - __main__ - INFO - Points in the bin [[6]] and [[10]]
+2022-12-10 14:11:19,073 - __main__ - INFO - indices: (array([5, 9]),) & (array([ 7,  8,  9, 10]),)
+2022-12-10 14:11:19,075 - __main__ - INFO - Subpartitions [6. 6. 6.] & [ 8.  9. 10.]
+2022-12-10 14:11:19,075 - __main__ - INFO - Number of bins: (array([ 7,  8, 10]),)
+2022-12-10 14:11:19,076 - __main__ - INFO - Points in the bin [[10  8 11]] and [[ 8  9 11]]
+2022-12-10 14:11:19,077 - __main__ - INFO - indices: (array([ 6,  7,  8, 10]),) & (array([ 7,  8,  9, 10]),)
+2022-12-10 14:11:19,078 - __main__ - INFO - Subpartitions [ 8.  9. 10.] & [ 8.  9. 10.]
+2022-12-10 14:11:19,079 - __main__ - INFO - Variables in partition bucket
+---
+borders : {'nodes': array([ 1, 11,  1, 11]), 'npts': 11}
+---
+numParts : 4
+---
+alpha : 0.05
+---
+partitionBucket : [{'nodes': array([1., 2., 1., 2.]), 'npts': 2}, {'nodes': array([3., 5., 3., 5.]), 'npts': 3}, {'nodes': array([6., 7., 6., 7.]), 'npts': 1}, {'nodes': array([ 8., 11.,  6.,  7.]), 'npts': 1}, {'nodes': array([ 6.,  7.,  8., 11.]), 'npts': 1}, {'nodes': array([ 8., 11.,  8., 11.]), 'npts': 3}]
+---
+
+2022-12-10 14:11:19,176 - __main__ - INFO - Probability information = [0.18181818 0.27272727 0.09090909 0.09090909 0.09090909 0.27272727]
+2022-12-10 14:11:19,176 - __main__ - INFO - Partition celss: Variables in partition bucket
+---
+borders : {'nodes': array([ 1, 11,  1, 11]), 'npts': 11}
+---
+numParts : 4
+---
+alpha : 0.05
+---
+partitionBucket : [{'nodes': array([1., 2., 1., 2.]), 'npts': 2}, {'nodes': array([3., 5., 3., 5.]), 'npts': 3}, {'nodes': array([6., 7., 6., 7.]), 'npts': 1}, {'nodes': array([ 8., 11.,  6.,  7.]), 'npts': 1}, {'nodes': array([ 6.,  7.,  8., 11.]), 'npts': 1}, {'nodes': array([ 8., 11.,  8., 11.]), 'npts': 3}]
+---
+
+2022-12-10 14:14:41,110 - __main__ - INFO - Number of bins: (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10]),)
+2022-12-10 14:14:41,115 - __main__ - INFO - Points in the bin [[ 1  2  3  4  5  7  9 10  8  6 11]] and [[ 1  2  3  4  5  6  7  8  9 10 11]]
+2022-12-10 14:14:41,117 - __main__ - INFO - indices: (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10]),) & (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10]),)
+2022-12-10 14:14:41,122 - __main__ - INFO - Subpartitions [6.] & [6.]
+2022-12-10 14:14:41,127 - __main__ - INFO - Number of bins: (array([0, 1, 2, 3, 4]),)
+2022-12-10 14:14:41,128 - __main__ - INFO - Points in the bin [[1 2 3 4 5]] and [[1 2 3 4 5]]
+2022-12-10 14:14:41,129 - __main__ - INFO - indices: (array([0, 1, 2, 3, 4]),) & (array([0, 1, 2, 3, 4]),)
+2022-12-10 14:14:41,131 - __main__ - INFO - Subpartitions [3.] & [3.]
+2022-12-10 14:14:41,134 - __main__ - INFO - Number of bins: (array([ 5,  6,  7,  8,  9, 10]),)
+2022-12-10 14:14:41,135 - __main__ - INFO - Points in the bin [[ 7  9 10  8  6 11]] and [[ 6  7  8  9 10 11]]
+2022-12-10 14:14:41,136 - __main__ - INFO - indices: (array([ 5,  6,  7,  8,  9, 10]),) & (array([ 5,  6,  7,  8,  9, 10]),)
+2022-12-10 14:14:41,138 - __main__ - INFO - Subpartitions [8.] & [8.]
+2022-12-10 14:15:14,036 - __main__ - INFO - Number of bins: (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10]),)
+2022-12-10 14:15:14,039 - __main__ - INFO - Points in the bin [[ 1  2  3  4  5  7  9 10  8  6 11]] and [[ 1  2  3  4  5  6  7  8  9 10 11]]
+2022-12-10 14:15:14,042 - __main__ - INFO - indices: (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10]),) & (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10]),)
+2022-12-10 14:15:14,045 - __main__ - INFO - Subpartitions [2. 4. 6. 7. 9.] & [2. 4. 6. 7. 9.]
+2022-12-10 14:15:19,856 - __main__ - INFO - Number of bins: (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10]),)
+2022-12-10 14:15:19,860 - __main__ - INFO - Points in the bin [[ 1  2  3  4  5  7  9 10  8  6 11]] and [[ 1  2  3  4  5  6  7  8  9 10 11]]
+2022-12-10 14:15:19,863 - __main__ - INFO - indices: (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10]),) & (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10]),)
+2022-12-10 14:15:19,866 - __main__ - INFO - Subpartitions [4. 7.] & [4. 7.]
+2022-12-10 14:15:23,900 - __main__ - INFO - Number of bins: (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10]),)
+2022-12-10 14:15:23,904 - __main__ - INFO - Points in the bin [[ 1  2  3  4  5  7  9 10  8  6 11]] and [[ 1  2  3  4  5  6  7  8  9 10 11]]
+2022-12-10 14:15:23,906 - __main__ - INFO - indices: (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10]),) & (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10]),)
+2022-12-10 14:15:23,908 - __main__ - INFO - Subpartitions [] & []
+2022-12-10 14:16:22,699 - __main__ - INFO - Number of bins: (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10]),)
+2022-12-10 14:16:22,703 - __main__ - INFO - Points in the bin [[ 1  2  3  4  5  7  9 10  8  6 11]] and [[ 1  2  3  4  5  6  7  8  9 10 11]]
+2022-12-10 14:16:22,705 - __main__ - INFO - indices: (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10]),) & (array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10]),)
+2022-12-10 14:16:22,707 - __main__ - INFO - Subpartitions [] & []
+2022-12-10 14:56:36,687 - root - INFO - No path argument was provided. Using: None
+2022-12-10 14:56:36,688 - root - WARNING - Kedro extension was registered but couldn't find a Kedro project. Make sure you run `%reload_kedro <path_to_kedro_project>`.
