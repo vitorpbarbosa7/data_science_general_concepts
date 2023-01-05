@@ -1,3 +1,7 @@
+
+# matches venv in any directory
+**/venv
+
 __pycache__
 *.swp
 *.swap
