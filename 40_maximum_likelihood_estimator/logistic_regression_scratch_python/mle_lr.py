@@ -71,7 +71,9 @@ for epoch in range(n_epochs):
 		# this complete derivative, can be found here : https://www.youtube.com/watch?v=0VMK18nphpg
 		gradients = (y_actual - y_pred_proba) * single_sample[:4]
 		
-		# update parameters		
+		# update parameters
+		# with the gradient, we will know how to update the parameters from logistic regression, if must decrease or increase, and what size of step is necessary,
+		# according to the difference of values between the actual result, and the result's value we are now		
 		thetas = thetas + (learning_rate * gradients)
 
 		# maximize log_likelihood
