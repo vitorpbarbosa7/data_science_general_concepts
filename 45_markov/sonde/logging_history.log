@@ -1,0 +1,16 @@
+Distance 0.2828427 
+Activation 0.9607894 
+Distance 0.4242641 
+Activation 0.9139312 
+Distance 7.071068 
+Activation 1.388794e-11 
+[1] "centroids"
+  V1 V2
+1  5  5
+4 10 10 # segundo centroid, justamente porque já possui uma distancia bem maior, passou do threshold
+Distance 7.076722 0.2828427 
+Activation 1.334339e-11 0.9607894 
+Distance 7.083784 0.4242641 
+Activation 1.269262e-11 0.9139312 
+Distance 0 7.071068 
+Activation 1 1.388794e-11 

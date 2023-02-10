@@ -422,3 +422,6 @@ Udemy-DeepLearning/S6_RegressaoCarros/data/autos.csv
 ./.git/objects/pack/pack-e10d09286709e60835a12b753782ad8ad44aa04c.pack
 ./.git/objects/pack/pack-9d020d970ddf30b8758914e28bee931bfde67888.pack
 ./42_mutual_information/30_mutual_information/data/aps_failure_training_set.csv
+./.git/objects/pack/pack-b385e284ac59daa1a5c8aab7a28479f81b15475c.pack
+./45_markov/.venv/lib/python3.10/site-packages/scipy.libs/libopenblasp-r0-41284840.3.18.so
+./45_markov/.venv/lib/python3.10/site-packages/numpy.libs/libopenblas64_p-r0-15028c96.3.21.so
