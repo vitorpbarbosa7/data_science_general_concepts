@@ -16,13 +16,20 @@ madj = matrix(madj.data, nrow = 3, ncol = 3, byrow = TRUE)
 madj2.data <- c(0,1,0, 0.05,0.9,0.05, 0.05,0.95,0)
 madj2 = matrix(madj2.data, nrow = 3, ncol = 3, byrow = TRUE)
 
-entropy_system = function(madj){
+madj3.data <- c(0,1,0,0,  0.025,0.8,0.025,0.15,  0.05,0.95,0,0,     0,0,0,0)
+madj3 = matrix(madj3.data, nrow = 4, ncol = 4, byrow = TRUE)
+
+madj4.data <- c(0,0.9,0.1, 0.05,0.9,0.05, 0.05,0.95,0)
+madj4 = matrix(madj4.data, nrow = 3, ncol = 3, byrow = TRUE)
+
+
+entropy_system = function(m){
   
   epsilon = 1e-10
-  madj = madj + epsilon
+  m = m + epsilon
   
   # normalize
-  M = t(apply(madj, 1, function(row) {row / sum(row) } ))
+  M = t(apply(m, 1, function(row) {row / sum(row) } ))
   
   entropies = M * log2(1/M)
   
@@ -36,8 +43,24 @@ entropy_system = function(madj){
 e1 = entropy_system(madj)
 e2 = entropy_system(madj2)
 
+# com variacao espacial
+e3 = entropy_system(madj3)
+
+# com variacao temporal
+e4 = entropy_system(madj4)
+
 cat(e1)
 cat(e2)
+cat(e3)
+cat(e4)
+
+entropies = c(e1,e2,e3,e4)
+
+plot(entropies)
+
+# Grow When Required
+# RSOM
+# Self Organizing Novelty Detector
 
 
 
