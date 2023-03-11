@@ -21,8 +21,8 @@ likelihood_values = []
 for (mean, sd, x) in zip(means, sds, xs):
 	likelihood_values.append(likelihood_function(mean, sd, x))
 
-# plt.plot(likelihood_values)
-# plt.show()
+plt.scatter(x = means, y = likelihood_values)
+plt.show()
 
 def product_likelihood(mean, sd, distribuition:list):
 	single_likelihood = []
@@ -35,5 +35,5 @@ products = []
 for (mean, sd) in zip(means, sds):
 	products.append(product_likelihood(mean, sd, distribuition))
 
-plt.plot(products)
+plt.scatter(x = means, y = products)
 plt.show()
