@@ -42,6 +42,11 @@ def sigmoid(log_odds):
 	return predict_proba
 
 n_epochs= 10
+# using a single learning rate for all steps (could be adaptative, going smaller as the optimization problem go step by step closer to the end)
+# Learning rate could also be a different one for each feature
+# -  we know we have different parameters (theta) for each feature, and consequently different gradients for each one,
+# -- since each gradient is calculated using (y_actual - y_pred_proba)*single_sample[:4] - that is, the value from each sample (each row n)
+# this approach would be ADAGRAD, showed here https://www.youtube.com/watch?v=o6FfdP2uYh4&ab_channel=KilianWeinberger
 learning_rate = 0.1
 
 # initialize arbitrary theta values
@@ -69,7 +74,7 @@ for epoch in range(n_epochs):
 		# gradient vector for each covariate
 		# a derivada parcial para cada um dos covariates (each instance, each single_sample)
 		# this complete derivative, can be found here : https://www.youtube.com/watch?v=0VMK18nphpg
-		gradients = (y_actual - y_pred_proba) * single_sample[:4]
+		gradients = (y_actual - y_pred_proba) * single_sample[:4]  
 		
 		# update parameters
 		# with the gradient, we will know how to update the parameters from logistic regression, if must decrease or increase, and what size of step is necessary,
